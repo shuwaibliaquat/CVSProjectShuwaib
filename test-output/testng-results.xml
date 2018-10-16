@@ -1,41 +1,349 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="32" passed="32">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="174898" started-at="2018-10-14T02:15:33Z" finished-at="2018-10-14T02:18:28Z">
+  <suite name="CVS Pharmacy Application Test Automation Test Suite" duration-ms="515506" started-at="2018-10-16T06:41:27Z" finished-at="2018-10-16T06:50:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="174898" started-at="2018-10-14T02:15:33Z" finished-at="2018-10-14T02:18:28Z">
-      <class name="com.cvs.qa.testcases.RegistrationTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="7061" started-at="2018-10-14T02:15:33Z" finished-at="2018-10-14T02:15:40Z">
+    <test name=" CVS HomePageTest" duration-ms="120003" started-at="2018-10-16T06:41:27Z" finished-at="2018-10-16T06:43:27Z">
+      <class name="com.cvs.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="setUp" is-config="true" duration-ms="7499" started-at="2018-10-16T06:41:27Z" finished-at="2018-10-16T06:41:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyRegistrationPageTitle()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="verifyRegistrationPageTitle" duration-ms="2270" started-at="2018-10-14T02:15:40Z" finished-at="2018-10-14T02:15:42Z">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="verifyHomePageTitleTest" duration-ms="47" started-at="2018-10-16T06:41:34Z" finished-at="2018-10-16T06:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="1219" started-at="2018-10-16T06:41:34Z" finished-at="2018-10-16T06:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="setUp" is-config="true" duration-ms="6807" started-at="2018-10-16T06:41:36Z" finished-at="2018-10-16T06:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageLogoTest()[pri:1, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="verifyHomePageLogoTest" duration-ms="77" started-at="2018-10-16T06:41:42Z" finished-at="2018-10-16T06:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="1243" started-at="2018-10-16T06:41:42Z" finished-at="2018-10-16T06:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="setUp" is-config="true" duration-ms="6301" started-at="2018-10-16T06:41:44Z" finished-at="2018-10-16T06:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchBoxTest()[pri:2, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="verifySearchBoxTest" duration-ms="528" started-at="2018-10-16T06:41:50Z" finished-at="2018-10-16T06:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="1186" started-at="2018-10-16T06:41:51Z" finished-at="2018-10-16T06:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="setUp" is-config="true" duration-ms="6096" started-at="2018-10-16T06:41:52Z" finished-at="2018-10-16T06:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPharmacyLinkTest()[pri:3, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="verifyPharmacyLinkTest" duration-ms="3029" started-at="2018-10-16T06:41:58Z" finished-at="2018-10-16T06:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPharmacyLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="1224" started-at="2018-10-16T06:42:01Z" finished-at="2018-10-16T06:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="setUp" is-config="true" duration-ms="5760" started-at="2018-10-16T06:42:02Z" finished-at="2018-10-16T06:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMinuteClinicLinkTest()[pri:4, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="verifyMinuteClinicLinkTest" duration-ms="3033" started-at="2018-10-16T06:42:08Z" finished-at="2018-10-16T06:42:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMinuteClinicLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="1265" started-at="2018-10-16T06:42:11Z" finished-at="2018-10-16T06:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="setUp" is-config="true" duration-ms="5917" started-at="2018-10-16T06:42:12Z" finished-at="2018-10-16T06:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyShopLinkTest()[pri:5, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="verifyShopLinkTest" duration-ms="3726" started-at="2018-10-16T06:42:18Z" finished-at="2018-10-16T06:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="1477" started-at="2018-10-16T06:42:22Z" finished-at="2018-10-16T06:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="setUp" is-config="true" duration-ms="6021" started-at="2018-10-16T06:42:23Z" finished-at="2018-10-16T06:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyExtraCareLinkTest()[pri:6, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="verifyExtraCareLinkTest" duration-ms="1862" started-at="2018-10-16T06:42:29Z" finished-at="2018-10-16T06:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExtraCareLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="1551" started-at="2018-10-16T06:42:31Z" finished-at="2018-10-16T06:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="setUp" is-config="true" duration-ms="5703" started-at="2018-10-16T06:42:33Z" finished-at="2018-10-16T06:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactLensesTest()[pri:7, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="verifyContactLensesTest" duration-ms="3221" started-at="2018-10-16T06:42:38Z" finished-at="2018-10-16T06:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactLensesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="1187" started-at="2018-10-16T06:42:42Z" finished-at="2018-10-16T06:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="setUp" is-config="true" duration-ms="5917" started-at="2018-10-16T06:42:43Z" finished-at="2018-10-16T06:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPhotoLinkTest()[pri:8, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="verifyPhotoLinkTest" duration-ms="4421" started-at="2018-10-16T06:42:49Z" finished-at="2018-10-16T06:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhotoLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="1368" started-at="2018-10-16T06:42:53Z" finished-at="2018-10-16T06:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="setUp" is-config="true" duration-ms="5887" started-at="2018-10-16T06:42:54Z" finished-at="2018-10-16T06:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyStoreLocatorTest()[pri:9, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="verifyStoreLocatorTest" duration-ms="8544" started-at="2018-10-16T06:43:00Z" finished-at="2018-10-16T06:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStoreLocatorTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="1494" started-at="2018-10-16T06:43:09Z" finished-at="2018-10-16T06:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="setUp" is-config="true" duration-ms="5914" started-at="2018-10-16T06:43:10Z" finished-at="2018-10-16T06:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyStoreLocator24HrsStoreTest()[pri:10, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="verifyStoreLocator24HrsStoreTest" duration-ms="8690" started-at="2018-10-16T06:43:16Z" finished-at="2018-10-16T06:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStoreLocator24HrsStoreTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="1721" started-at="2018-10-16T06:43:25Z" finished-at="2018-10-16T06:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cvs.qa.testcases.HomePageTest -->
+    </test> <!--  CVS HomePageTest -->
+    <test name=" CVS LogInPageTest" duration-ms="99804" started-at="2018-10-16T06:43:27Z" finished-at="2018-10-16T06:45:07Z">
+      <class name="com.cvs.qa.testcases.LogInTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="setUp" is-config="true" duration-ms="5823" started-at="2018-10-16T06:43:28Z" finished-at="2018-10-16T06:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogInExcelData(java.lang.String, java.lang.String)[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="verifyLogInExcelData" duration-ms="5414" started-at="2018-10-16T06:43:34Z" data-provider="getCVSTestDataLogIn" finished-at="2018-10-16T06:43:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shuwaibliaquat@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hhb12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInExcelData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="tearDown" is-config="true" duration-ms="1296" started-at="2018-10-16T06:43:39Z" finished-at="2018-10-16T06:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="setUp" is-config="true" duration-ms="6002" started-at="2018-10-16T06:43:40Z" finished-at="2018-10-16T06:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogInExcelData(java.lang.String, java.lang.String)[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="verifyLogInExcelData" duration-ms="6964" started-at="2018-10-16T06:43:46Z" data-provider="getCVSTestDataLogIn" finished-at="2018-10-16T06:43:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shuwaibliaquat@ymail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[truelove12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInExcelData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="tearDown" is-config="true" duration-ms="1354" started-at="2018-10-16T06:43:53Z" finished-at="2018-10-16T06:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="setUp" is-config="true" duration-ms="6188" started-at="2018-10-16T06:43:55Z" finished-at="2018-10-16T06:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogInExcelData(java.lang.String, java.lang.String)[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="verifyLogInExcelData" duration-ms="5059" started-at="2018-10-16T06:44:01Z" data-provider="getCVSTestDataLogIn" finished-at="2018-10-16T06:44:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nishat055@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[apple123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInExcelData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="tearDown" is-config="true" duration-ms="1205" started-at="2018-10-16T06:44:06Z" finished-at="2018-10-16T06:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="setUp" is-config="true" duration-ms="5399" started-at="2018-10-16T06:44:07Z" finished-at="2018-10-16T06:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogInTest()[pri:1, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="verifyLogInTest" duration-ms="4274" started-at="2018-10-16T06:44:13Z" finished-at="2018-10-16T06:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="tearDown" is-config="true" duration-ms="1203" started-at="2018-10-16T06:44:17Z" finished-at="2018-10-16T06:44:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="setUp" is-config="true" duration-ms="5104" started-at="2018-10-16T06:44:18Z" finished-at="2018-10-16T06:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTopPanelLogInTestExcelDataTest(java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="verifyTopPanelLogInTestExcelDataTest" duration-ms="5090" started-at="2018-10-16T06:44:23Z" data-provider="getCVSTestDataLogIn" finished-at="2018-10-16T06:44:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shuwaibliaquat@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hhb12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTopPanelLogInTestExcelDataTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="tearDown" is-config="true" duration-ms="1287" started-at="2018-10-16T06:44:28Z" finished-at="2018-10-16T06:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="setUp" is-config="true" duration-ms="5475" started-at="2018-10-16T06:44:30Z" finished-at="2018-10-16T06:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTopPanelLogInTestExcelDataTest(java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="verifyTopPanelLogInTestExcelDataTest" duration-ms="5126" started-at="2018-10-16T06:44:35Z" data-provider="getCVSTestDataLogIn" finished-at="2018-10-16T06:44:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shuwaibliaquat@ymail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[truelove12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTopPanelLogInTestExcelDataTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="tearDown" is-config="true" duration-ms="1137" started-at="2018-10-16T06:44:40Z" finished-at="2018-10-16T06:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="setUp" is-config="true" duration-ms="4954" started-at="2018-10-16T06:44:41Z" finished-at="2018-10-16T06:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTopPanelLogInTestExcelDataTest(java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="verifyTopPanelLogInTestExcelDataTest" duration-ms="6644" started-at="2018-10-16T06:44:46Z" data-provider="getCVSTestDataLogIn" finished-at="2018-10-16T06:44:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nishat055@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[apple123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTopPanelLogInTestExcelDataTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="tearDown" is-config="true" duration-ms="1092" started-at="2018-10-16T06:44:53Z" finished-at="2018-10-16T06:44:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="setUp" is-config="true" duration-ms="6400" started-at="2018-10-16T06:44:54Z" finished-at="2018-10-16T06:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTopPanelLogInTest()[pri:3, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="verifyTopPanelLogInTest" duration-ms="5149" started-at="2018-10-16T06:45:00Z" finished-at="2018-10-16T06:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTopPanelLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.LogInTest@2f943d71]" name="tearDown" is-config="true" duration-ms="1055" started-at="2018-10-16T06:45:06Z" finished-at="2018-10-16T06:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cvs.qa.testcases.LogInTest -->
+    </test> <!--  CVS LogInPageTest -->
+    <test name=" CVS RegistrationPageTest" duration-ms="178079" started-at="2018-10-16T06:45:07Z" finished-at="2018-10-16T06:48:05Z">
+      <class name="com.cvs.qa.testcases.RegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="setUp" is-config="true" duration-ms="5094" started-at="2018-10-16T06:45:07Z" finished-at="2018-10-16T06:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRegistrationPageTitle()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="verifyRegistrationPageTitle" duration-ms="2295" started-at="2018-10-16T06:45:12Z" finished-at="2018-10-16T06:45:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationPageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="242" started-at="2018-10-14T02:15:42Z" finished-at="2018-10-14T02:15:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="tearDown" is-config="true" duration-ms="1002" started-at="2018-10-16T06:45:14Z" finished-at="2018-10-16T06:45:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="5847" started-at="2018-10-14T02:15:43Z" finished-at="2018-10-14T02:15:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="setUp" is-config="true" duration-ms="5897" started-at="2018-10-16T06:45:15Z" finished-at="2018-10-16T06:45:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerCustomer()[pri:1, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerCustomer" duration-ms="16748" started-at="2018-10-14T02:15:48Z" finished-at="2018-10-14T02:16:05Z">
+        <test-method status="PASS" signature="registerCustomer()[pri:1, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="registerCustomer" duration-ms="16904" started-at="2018-10-16T06:45:21Z" finished-at="2018-10-16T06:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="332" started-at="2018-10-14T02:16:05Z" finished-at="2018-10-14T02:16:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="tearDown" is-config="true" duration-ms="1385" started-at="2018-10-16T06:45:38Z" finished-at="2018-10-16T06:45:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="5301" started-at="2018-10-14T02:16:06Z" finished-at="2018-10-14T02:16:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="setUp" is-config="true" duration-ms="4921" started-at="2018-10-16T06:45:39Z" finished-at="2018-10-16T06:45:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="13244" started-at="2018-10-14T02:16:12Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:16:25Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="registerMultipleCustomer" duration-ms="13637" started-at="2018-10-16T06:45:44Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-16T06:45:58Z">
           <params>
             <param index="0">
               <value>
@@ -121,15 +429,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="392" started-at="2018-10-14T02:16:25Z" finished-at="2018-10-14T02:16:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="tearDown" is-config="true" duration-ms="1250" started-at="2018-10-16T06:45:58Z" finished-at="2018-10-16T06:45:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="5628" started-at="2018-10-14T02:16:25Z" finished-at="2018-10-14T02:16:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="setUp" is-config="true" duration-ms="5081" started-at="2018-10-16T06:45:59Z" finished-at="2018-10-16T06:46:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="13464" started-at="2018-10-14T02:16:31Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:16:44Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="registerMultipleCustomer" duration-ms="13402" started-at="2018-10-16T06:46:04Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-16T06:46:18Z">
           <params>
             <param index="0">
               <value>
@@ -215,15 +523,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="348" started-at="2018-10-14T02:16:44Z" finished-at="2018-10-14T02:16:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="tearDown" is-config="true" duration-ms="2324" started-at="2018-10-16T06:46:18Z" finished-at="2018-10-16T06:46:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="5900" started-at="2018-10-14T02:16:45Z" finished-at="2018-10-14T02:16:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="setUp" is-config="true" duration-ms="5475" started-at="2018-10-16T06:46:20Z" finished-at="2018-10-16T06:46:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="13203" started-at="2018-10-14T02:16:51Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:17:04Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="registerMultipleCustomer" duration-ms="13611" started-at="2018-10-16T06:46:25Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-16T06:46:39Z">
           <params>
             <param index="0">
               <value>
@@ -309,15 +617,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="334" started-at="2018-10-14T02:17:04Z" finished-at="2018-10-14T02:17:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="tearDown" is-config="true" duration-ms="1142" started-at="2018-10-16T06:46:39Z" finished-at="2018-10-16T06:46:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="5395" started-at="2018-10-14T02:17:04Z" finished-at="2018-10-14T02:17:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="setUp" is-config="true" duration-ms="5440" started-at="2018-10-16T06:46:40Z" finished-at="2018-10-16T06:46:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="13109" started-at="2018-10-14T02:17:10Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:17:23Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="registerMultipleCustomer" duration-ms="13969" started-at="2018-10-16T06:46:46Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-16T06:47:00Z">
           <params>
             <param index="0">
               <value>
@@ -403,15 +711,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="408" started-at="2018-10-14T02:17:23Z" finished-at="2018-10-14T02:17:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="tearDown" is-config="true" duration-ms="1106" started-at="2018-10-16T06:47:00Z" finished-at="2018-10-16T06:47:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="5913" started-at="2018-10-14T02:17:23Z" finished-at="2018-10-14T02:17:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="setUp" is-config="true" duration-ms="5508" started-at="2018-10-16T06:47:01Z" finished-at="2018-10-16T06:47:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="13348" started-at="2018-10-14T02:17:29Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:17:42Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="registerMultipleCustomer" duration-ms="14049" started-at="2018-10-16T06:47:06Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-16T06:47:20Z">
           <params>
             <param index="0">
               <value>
@@ -497,15 +805,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="340" started-at="2018-10-14T02:17:42Z" finished-at="2018-10-14T02:17:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="tearDown" is-config="true" duration-ms="1380" started-at="2018-10-16T06:47:20Z" finished-at="2018-10-16T06:47:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="10237" started-at="2018-10-14T02:17:43Z" finished-at="2018-10-14T02:17:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="setUp" is-config="true" duration-ms="5423" started-at="2018-10-16T06:47:22Z" finished-at="2018-10-16T06:47:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="13336" started-at="2018-10-14T02:17:53Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:18:06Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="registerMultipleCustomer" duration-ms="16189" started-at="2018-10-16T06:47:27Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-16T06:47:43Z">
           <params>
             <param index="0">
               <value>
@@ -591,15 +899,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="340" started-at="2018-10-14T02:18:06Z" finished-at="2018-10-14T02:18:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="tearDown" is-config="true" duration-ms="1230" started-at="2018-10-16T06:47:43Z" finished-at="2018-10-16T06:47:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="6248" started-at="2018-10-14T02:18:07Z" finished-at="2018-10-14T02:18:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="setUp" is-config="true" duration-ms="5220" started-at="2018-10-16T06:47:44Z" finished-at="2018-10-16T06:47:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="14725" started-at="2018-10-14T02:18:13Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:18:28Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="registerMultipleCustomer" duration-ms="13653" started-at="2018-10-16T06:47:50Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-16T06:48:03Z">
           <params>
             <param index="0">
               <value>
@@ -685,11 +993,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="341" started-at="2018-10-14T02:18:28Z" finished-at="2018-10-14T02:18:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@2a742aa2]" name="tearDown" is-config="true" duration-ms="1424" started-at="2018-10-16T06:48:03Z" finished-at="2018-10-16T06:48:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.cvs.qa.testcases.RegistrationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!--  CVS RegistrationPageTest -->
+    <test name=" CVS MinuteClinicPageTest" duration-ms="107707" started-at="2018-10-16T06:48:05Z" finished-at="2018-10-16T06:49:52Z">
+      <class name="com.cvs.qa.testcases.MinuteClinicTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.MinuteClinicTest@7a187f14]" name="setUp" is-config="true" duration-ms="5162" started-at="2018-10-16T06:48:05Z" finished-at="2018-10-16T06:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMinuteClinicPageTitleTest()[pri:0, instance:com.cvs.qa.testcases.MinuteClinicTest@7a187f14]" name="verifyMinuteClinicPageTitleTest" duration-ms="24544" started-at="2018-10-16T06:48:10Z" finished-at="2018-10-16T06:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMinuteClinicPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.MinuteClinicTest@7a187f14]" name="tearDown" is-config="true" duration-ms="1097" started-at="2018-10-16T06:48:34Z" finished-at="2018-10-16T06:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.MinuteClinicTest@7a187f14]" name="setUp" is-config="true" duration-ms="6184" started-at="2018-10-16T06:48:36Z" finished-at="2018-10-16T06:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyZipCodeLocaterTest()[pri:1, instance:com.cvs.qa.testcases.MinuteClinicTest@7a187f14]" name="verifyZipCodeLocaterTest" duration-ms="29539" started-at="2018-10-16T06:48:42Z" finished-at="2018-10-16T06:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyZipCodeLocaterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.MinuteClinicTest@7a187f14]" name="tearDown" is-config="true" duration-ms="1788" started-at="2018-10-16T06:49:11Z" finished-at="2018-10-16T06:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.MinuteClinicTest@7a187f14]" name="setUp" is-config="true" duration-ms="6117" started-at="2018-10-16T06:49:13Z" finished-at="2018-10-16T06:49:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyClinicLocatorPageTitleTest()[pri:2, instance:com.cvs.qa.testcases.MinuteClinicTest@7a187f14]" name="verifyClinicLocatorPageTitleTest" duration-ms="32229" started-at="2018-10-16T06:49:19Z" finished-at="2018-10-16T06:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClinicLocatorPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.MinuteClinicTest@7a187f14]" name="tearDown" is-config="true" duration-ms="1043" started-at="2018-10-16T06:49:51Z" finished-at="2018-10-16T06:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cvs.qa.testcases.MinuteClinicTest -->
+    </test> <!--  CVS MinuteClinicPageTest -->
+    <test name=" CVS PharmacyPageTest" duration-ms="9786" started-at="2018-10-16T06:49:52Z" finished-at="2018-10-16T06:50:02Z">
+      <class name="com.cvs.qa.testcases.PharmacyTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.PharmacyTest@3234e239]" name="setUp" is-config="true" duration-ms="5046" started-at="2018-10-16T06:49:52Z" finished-at="2018-10-16T06:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTransferingRX2CVS()[pri:0, instance:com.cvs.qa.testcases.PharmacyTest@3234e239]" name="verifyTransferingRX2CVS" duration-ms="3916" started-at="2018-10-16T06:49:58Z" finished-at="2018-10-16T06:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransferingRX2CVS -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.PharmacyTest@3234e239]" name="tearDown" is-config="true" duration-ms="823" started-at="2018-10-16T06:50:01Z" finished-at="2018-10-16T06:50:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cvs.qa.testcases.PharmacyTest -->
+    </test> <!--  CVS PharmacyPageTest -->
+  </suite> <!-- CVS Pharmacy Application Test Automation Test Suite -->
 </testng-results>

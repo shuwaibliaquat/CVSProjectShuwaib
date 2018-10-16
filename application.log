@@ -1,18 +1,36 @@
-2018-10-13 22:15:40,555  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-10-13 22:15:43,075  INFO [main] RegistrationTest:97 - Ending of Test Case
-2018-10-13 22:15:48,922  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-10-13 22:16:06,002  INFO [main] RegistrationTest:97 - Ending of Test Case
-2018-10-13 22:16:12,118  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-10-13 22:16:25,755  INFO [main] RegistrationTest:97 - Ending of Test Case
-2018-10-13 22:16:31,383  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-10-13 22:16:45,199  INFO [main] RegistrationTest:97 - Ending of Test Case
-2018-10-13 22:16:51,099  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-10-13 22:17:04,636  INFO [main] RegistrationTest:97 - Ending of Test Case
-2018-10-13 22:17:10,031  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-10-13 22:17:23,552  INFO [main] RegistrationTest:97 - Ending of Test Case
-2018-10-13 22:17:29,465  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-10-13 22:17:43,153  INFO [main] RegistrationTest:97 - Ending of Test Case
-2018-10-13 22:17:53,390  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-10-13 22:18:07,066  INFO [main] RegistrationTest:97 - Ending of Test Case
-2018-10-13 22:18:13,313  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-10-13 22:18:28,380  INFO [main] RegistrationTest:97 - Ending of Test Case
+2018-10-16 02:43:34,149  INFO [main] LogInTest:25 - Beginnning of Test Case
+2018-10-16 02:43:46,866  INFO [main] LogInTest:25 - Beginnning of Test Case
+2018-10-16 02:44:01,373  INFO [main] LogInTest:25 - Beginnning of Test Case
+2018-10-16 02:44:13,038  INFO [main] LogInTest:25 - Beginnning of Test Case
+2018-10-16 02:44:23,692  INFO [main] LogInTest:25 - Beginnning of Test Case
+2018-10-16 02:44:35,545  INFO [main] LogInTest:25 - Beginnning of Test Case
+2018-10-16 02:44:46,762  INFO [main] LogInTest:25 - Beginnning of Test Case
+2018-10-16 02:45:00,901  INFO [main] LogInTest:25 - Beginnning of Test Case
+2018-10-16 02:45:12,226  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2018-10-16 02:45:15,524  INFO [main] RegistrationTest:97 - Ending of Test Case
+2018-10-16 02:45:21,421  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2018-10-16 02:45:39,710  INFO [main] RegistrationTest:97 - Ending of Test Case
+2018-10-16 02:45:44,683  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2018-10-16 02:45:59,571  INFO [main] RegistrationTest:97 - Ending of Test Case
+2018-10-16 02:46:04,653  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2018-10-16 02:46:20,379  INFO [main] RegistrationTest:97 - Ending of Test Case
+2018-10-16 02:46:25,856  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2018-10-16 02:46:40,610  INFO [main] RegistrationTest:97 - Ending of Test Case
+2018-10-16 02:46:46,050  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2018-10-16 02:47:01,127  INFO [main] RegistrationTest:97 - Ending of Test Case
+2018-10-16 02:47:06,636  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2018-10-16 02:47:22,066  INFO [main] RegistrationTest:97 - Ending of Test Case
+2018-10-16 02:47:27,490  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2018-10-16 02:47:44,910  INFO [main] RegistrationTest:97 - Ending of Test Case
+2018-10-16 02:47:50,131  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2018-10-16 02:48:05,210  INFO [main] RegistrationTest:97 - Ending of Test Case
+2018-10-16 02:50:03,298 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-10-16 02:50:03,299 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-10-16 02:50:03,301 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-10-16 02:50:03,302 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-10-16 02:50:03,302 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/JavaLearner/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-10-16 02:50:03,734 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-10-16 02:50:03,735 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-10-16 02:50:03,735 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-10-16 02:50:03,736 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-10-16 02:50:03,736 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/JavaLearner/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
