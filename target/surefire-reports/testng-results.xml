@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="89855" started-at="2018-10-13T13:59:58Z" finished-at="2018-10-13T14:01:28Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="89855" started-at="2018-10-13T13:59:58Z" finished-at="2018-10-13T14:01:28Z">
+      <class name="com.cvs.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@56ac3a89]" name="setUp" is-config="true" duration-ms="8736" started-at="2018-10-13T13:59:58Z" finished-at="2018-10-13T14:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@56ac3a89]" name="verifyHomePageTitleTest" duration-ms="32" started-at="2018-10-13T14:00:07Z" finished-at="2018-10-13T14:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.HomePageTest@56ac3a89]" name="tearDown" is-config="true" duration-ms="983" started-at="2018-10-13T14:00:07Z" finished-at="2018-10-13T14:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cvs.qa.testcases.HomePageTest -->
+      <class name="com.cvs.qa.testcases.PharmacyTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.PharmacyTest@6e06451e]" name="setUp" is-config="true" duration-ms="4988" started-at="2018-10-13T14:01:18Z" finished-at="2018-10-13T14:01:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTransferingRX2CVS()[pri:0, instance:com.cvs.qa.testcases.PharmacyTest@6e06451e]" name="verifyTransferingRX2CVS" duration-ms="4124" started-at="2018-10-13T14:01:23Z" finished-at="2018-10-13T14:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransferingRX2CVS -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.PharmacyTest@6e06451e]" name="tearDown" is-config="true" duration-ms="830" started-at="2018-10-13T14:01:27Z" finished-at="2018-10-13T14:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cvs.qa.testcases.PharmacyTest -->
+      <class name="com.cvs.qa.testcases.LogInTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.LogInTest@27c20538]" name="setUp" is-config="true" duration-ms="5127" started-at="2018-10-13T14:00:16Z" finished-at="2018-10-13T14:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogInExcelData(java.lang.String, java.lang.String)[pri:0, instance:com.cvs.qa.testcases.LogInTest@27c20538]" name="verifyLogInExcelData" duration-ms="4000" started-at="2018-10-13T14:00:21Z" data-provider="getCVSTestDataLogIn" finished-at="2018-10-13T14:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shuwaibliaquat@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hhb12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInExcelData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.LogInTest@27c20538]" name="tearDown" is-config="true" duration-ms="1132" started-at="2018-10-13T14:00:25Z" finished-at="2018-10-13T14:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.LogInTest@27c20538]" name="setUp" is-config="true" duration-ms="4946" started-at="2018-10-13T14:00:26Z" finished-at="2018-10-13T14:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogInExcelData(java.lang.String, java.lang.String)[pri:0, instance:com.cvs.qa.testcases.LogInTest@27c20538]" name="verifyLogInExcelData" duration-ms="4577" started-at="2018-10-13T14:00:31Z" data-provider="getCVSTestDataLogIn" finished-at="2018-10-13T14:00:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shuwaibliaquat@ymail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[truelove12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInExcelData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.LogInTest@27c20538]" name="tearDown" is-config="true" duration-ms="1066" started-at="2018-10-13T14:00:36Z" finished-at="2018-10-13T14:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.LogInTest@27c20538]" name="setUp" is-config="true" duration-ms="4951" started-at="2018-10-13T14:00:37Z" finished-at="2018-10-13T14:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogInExcelData(java.lang.String, java.lang.String)[pri:0, instance:com.cvs.qa.testcases.LogInTest@27c20538]" name="verifyLogInExcelData" duration-ms="5248" started-at="2018-10-13T14:00:42Z" data-provider="getCVSTestDataLogIn" finished-at="2018-10-13T14:00:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nishat055@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[apple123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInExcelData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.LogInTest@27c20538]" name="tearDown" is-config="true" duration-ms="1090" started-at="2018-10-13T14:00:47Z" finished-at="2018-10-13T14:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cvs.qa.testcases.LogInTest -->
+      <class name="com.cvs.qa.testcases.RegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@6e1567f1]" name="setUp" is-config="true" duration-ms="5025" started-at="2018-10-13T14:00:08Z" finished-at="2018-10-13T14:00:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRegistrationPageTitle()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@6e1567f1]" name="verifyRegistrationPageTitle" duration-ms="1874" started-at="2018-10-13T14:00:13Z" finished-at="2018-10-13T14:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="289" started-at="2018-10-13T14:00:15Z" finished-at="2018-10-13T14:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cvs.qa.testcases.RegistrationTest -->
+      <class name="com.cvs.qa.testcases.MinuteClinicTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.MinuteClinicTest@72d818d1]" name="setUp" is-config="true" duration-ms="4870" started-at="2018-10-13T14:00:48Z" finished-at="2018-10-13T14:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMinuteClinicPageTitleTest()[pri:0, instance:com.cvs.qa.testcases.MinuteClinicTest@72d818d1]" name="verifyMinuteClinicPageTitleTest" duration-ms="23827" started-at="2018-10-13T14:00:53Z" finished-at="2018-10-13T14:01:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMinuteClinicPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.MinuteClinicTest@72d818d1]" name="tearDown" is-config="true" duration-ms="1067" started-at="2018-10-13T14:01:17Z" finished-at="2018-10-13T14:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cvs.qa.testcases.MinuteClinicTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

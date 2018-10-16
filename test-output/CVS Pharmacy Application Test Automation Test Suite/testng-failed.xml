@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CVS Pharmacy Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.cvs.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name=" CVS MinuteClinicPageTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.MinuteClinicTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyZipCodeLocaterTest"/>
+          <include name="verifyClinicLocatorPageTitleTest"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.MinuteClinicTest -->
+    </classes>
+  </test> <!--  CVS MinuteClinicPageTest(failed) -->
+</suite> <!-- Failed suite [CVS Pharmacy Application Test Automation Test Suite] -->

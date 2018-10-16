@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="174898" started-at="2018-10-14T02:15:33Z" finished-at="2018-10-14T02:18:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="174898" started-at="2018-10-14T02:15:33Z" finished-at="2018-10-14T02:18:28Z">
+      <class name="com.cvs.qa.testcases.RegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="7061" started-at="2018-10-14T02:15:33Z" finished-at="2018-10-14T02:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRegistrationPageTitle()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="verifyRegistrationPageTitle" duration-ms="2270" started-at="2018-10-14T02:15:40Z" finished-at="2018-10-14T02:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="242" started-at="2018-10-14T02:15:42Z" finished-at="2018-10-14T02:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="5847" started-at="2018-10-14T02:15:43Z" finished-at="2018-10-14T02:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerCustomer()[pri:1, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerCustomer" duration-ms="16748" started-at="2018-10-14T02:15:48Z" finished-at="2018-10-14T02:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="332" started-at="2018-10-14T02:16:05Z" finished-at="2018-10-14T02:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="5301" started-at="2018-10-14T02:16:06Z" finished-at="2018-10-14T02:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="13244" started-at="2018-10-14T02:16:12Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:16:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shuwaib]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Liaquat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shuwaibliaquat@hotmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Apple12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Apple12345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Krish]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[111 Wayne Ave]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1st]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Paterson]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NJ]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[07503]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2019814576]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1989]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMultipleCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="392" started-at="2018-10-14T02:16:25Z" finished-at="2018-10-14T02:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="5628" started-at="2018-10-14T02:16:25Z" finished-at="2018-10-14T02:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="13464" started-at="2018-10-14T02:16:31Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:16:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shuwaib1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Liaquat1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shuwaibliaquat1@hotmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Apple12346]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Apple12346]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Shabana]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[112 Wayne Ave]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2nd]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Paterson]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NJ]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[07504]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2019814576]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[02]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1989]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMultipleCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="348" started-at="2018-10-14T02:16:44Z" finished-at="2018-10-14T02:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="5900" started-at="2018-10-14T02:16:45Z" finished-at="2018-10-14T02:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="13203" started-at="2018-10-14T02:16:51Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:17:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Liaquat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shuwaibliaquat@hotmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Apple12347]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Apple12347]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[yahoo]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[113 Wayne Ave]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3rd]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Paterson]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[07505]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2019814576]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[03]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1989]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMultipleCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="334" started-at="2018-10-14T02:17:04Z" finished-at="2018-10-14T02:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="5395" started-at="2018-10-14T02:17:04Z" finished-at="2018-10-14T02:17:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="13109" started-at="2018-10-14T02:17:10Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:17:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shuwaib]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Liaquat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shuwaibliaquat1@hotmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Apple12348]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Apple12348]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hotmail]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[114 Wayne Ave]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4th]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Paterson]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NJ]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[07506]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2019814576]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[04]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1989]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMultipleCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="408" started-at="2018-10-14T02:17:23Z" finished-at="2018-10-14T02:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="5913" started-at="2018-10-14T02:17:23Z" finished-at="2018-10-14T02:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="13348" started-at="2018-10-14T02:17:29Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:17:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shuwaib3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Liaquat3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shuwaibliaquat@hotmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Apple12349]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Apple12349]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[115 Wayne Ave]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5th]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Paterson]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[07507]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2019814576]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[05]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1989]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMultipleCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="340" started-at="2018-10-14T02:17:42Z" finished-at="2018-10-14T02:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="10237" started-at="2018-10-14T02:17:43Z" finished-at="2018-10-14T02:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="13336" started-at="2018-10-14T02:17:53Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shuwaib4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Liaquat4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shuwaibliaquat1@hotmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Apple12350]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Apple12350]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[tommy]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[116 Wayne Ave]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[6th]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Paterson]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[MI]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[07508]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2019814576]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[06]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1989]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMultipleCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="340" started-at="2018-10-14T02:18:06Z" finished-at="2018-10-14T02:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="setUp" is-config="true" duration-ms="6248" started-at="2018-10-14T02:18:07Z" finished-at="2018-10-14T02:18:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="registerMultipleCustomer" duration-ms="14725" started-at="2018-10-14T02:18:13Z" data-provider="getCVSTestDataRegistration" finished-at="2018-10-14T02:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nishat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chowdhury]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nishat0598@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Apple555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Apple555]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tia]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12 Elk St]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7th]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Lincoln Park]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[MI]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[48212]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2019814576]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMultipleCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@74650e52]" name="tearDown" is-config="true" duration-ms="341" started-at="2018-10-14T02:18:28Z" finished-at="2018-10-14T02:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cvs.qa.testcases.RegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
