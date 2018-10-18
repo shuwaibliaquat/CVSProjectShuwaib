@@ -7,14 +7,14 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.cvs.qa.testbase.TestBase;
 
-public class ClinicLocator extends TestBase{
+public class ClinicLocatorTest extends TestBase{
 	
-	static Logger log = Logger.getLogger(ClinicLocator.class);
+	static Logger log = Logger.getLogger(ClinicLocatorTest.class);
 	
 	@FindBy(xpath="//*[@id=\"content\"]/div/div[1]/div/div/div/div/div[1]/fieldset/label" )
 	WebElement clinicLocaterInsurancheckBox;
 	
-	public ClinicLocator() {
+	public ClinicLocatorTest() {
 		PageFactory.initElements(driver, this);
 	}
 	

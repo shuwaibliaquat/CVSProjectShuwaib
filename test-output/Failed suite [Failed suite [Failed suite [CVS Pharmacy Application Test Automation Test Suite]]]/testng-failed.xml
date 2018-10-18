@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Failed suite [CVS Pharmacy Application Test Automation Test Suite]]]]">
+  <listeners>
+    <listener class-name="com.cvs.qa.utilities.RunTimeTransformer"/>
+  </listeners>
+  <test thread-count="5" name=" CVS ShopPageTest(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.ShopPageTest">
+        <methods>
+          <include name="verifyClickonShopAllCategoriesTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.ShopPageTest -->
+    </classes>
+  </test> <!--  CVS ShopPageTest(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [CVS Pharmacy Application Test Automation Test Suite]]]] -->

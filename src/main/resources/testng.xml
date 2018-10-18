@@ -4,7 +4,11 @@
 
 	<listeners>
 		<listener class-name="com.cvs.qa.ExtentReportListener.ExtentReporterNG" />
-	</listeners> 
+ 	</listeners>
+ 	
+ 	<listeners>
+        <listener class-name="com.cvs.qa.utilities.RunTimeTransformer"/>
+     </listeners>
 
 
 	<test name=" CVS HomePageTest">
@@ -31,6 +35,42 @@
 			<class name="com.cvs.qa.testcases.MinuteClinicTest"/>		
 		</classes>
 	</test>
+	
+	<test name=" CVS ClinicLocatorTest">
+		<classes> 
+			<class name="com.cvs.qa.testcases.ClinicLocatorTest"/>		
+		</classes>
+	</test>
+	
+	<test name=" CVS ContactLensesPageTest">
+		<classes> 
+			<class name="com.cvs.qa.testcases.ContactLensesPageTest"/>		
+		</classes>
+	</test>	
+	
+	<test name=" CVS ExtraCareTest">
+		<classes> 
+			<class name="com.cvs.qa.testcases.ExtraCareTest"/>		
+		</classes>
+	</test>	
+	
+	<test name=" CVS PhotoPageTest">
+		<classes> 
+			<class name="com.cvs.qa.testcases.PhotoPageTest"/>		
+		</classes>
+	</test>	
+	
+	<test name=" CVS ShopPageTest">
+		<classes> 
+			<class name="com.cvs.qa.testcases.ShopPageTest"/>		
+		</classes>
+	</test>	
+	
+	<test name=" CVS SignUp4DealTest">
+		<classes> 
+			<class name="com.cvs.qa.testcases.SignUp4DealTest"/>		
+		</classes>
+	</test>	
 	
 	<test name=" CVS PharmacyPageTest">
 		<classes> 

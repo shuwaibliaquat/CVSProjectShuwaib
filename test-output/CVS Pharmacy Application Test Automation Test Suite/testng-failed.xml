@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [CVS Pharmacy Application Test Automation Test Suite]">
   <listeners>
-    <listener class-name="com.cvs.qa.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.cvs.qa.utilities.RunTimeTransformer"/>
   </listeners>
   <test thread-count="5" name=" CVS MinuteClinicPageTest(failed)">
     <classes>
@@ -16,4 +16,15 @@
       </class> <!-- com.cvs.qa.testcases.MinuteClinicTest -->
     </classes>
   </test> <!--  CVS MinuteClinicPageTest(failed) -->
+  <test thread-count="5" name=" CVS ExtraCareTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.ExtraCareTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyExtraCareSignInTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.ExtraCareTest -->
+    </classes>
+  </test> <!--  CVS ExtraCareTest(failed) -->
 </suite> <!-- Failed suite [CVS Pharmacy Application Test Automation Test Suite] -->
