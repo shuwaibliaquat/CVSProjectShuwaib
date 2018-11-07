@@ -16,7 +16,6 @@ import org.openqa.selenium.TakesScreenshot;
 
 import com.cvs.qa.testbase.TestBase;
 
-
 public class TestUtil extends TestBase {
 
 	public static long PAGE_LOAD_TIMEOUT = 20;

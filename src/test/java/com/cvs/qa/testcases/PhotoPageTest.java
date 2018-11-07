@@ -7,29 +7,31 @@ import org.testng.annotations.Test;
 import com.cvs.qa.pages.Photo;
 import com.cvs.qa.testbase.TestBase;
 
-public class PhotoPageTest extends TestBase{
+public class PhotoPageTest extends TestBase {
 	Photo photo;
-	
-	public PhotoPageTest(){
+
+	public PhotoPageTest() {
 		super();
 	}
+
 	@BeforeMethod
 	public void setUp() {
 		initialization();
 		photo = new Photo();
 	}
-	
-	@Test(priority=1)
+
+	@Test(priority = 1)
 	public void verifyPhotoPageTitleTest() {
 		String title = photo.verifyPhotoPageTitle();
-		//Assert.assertEquals(title, "Photo Printing Services | Print Photos Online | CVS Photo");
+		// Assert.assertEquals(title, "Photo Printing Services | Print Photos Online |
+		// CVS Photo");
 	}
-	
-	@Test(priority=2)
+
+	@Test(priority = 2)
 	public void verifyShopNowPicLinkTest() {
 		photo.verifyShopNowLink();
 	}
-	
+
 	@AfterMethod
 	public void tearDown() {
 		driver.manage().deleteAllCookies();

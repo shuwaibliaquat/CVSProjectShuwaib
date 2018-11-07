@@ -10,29 +10,29 @@ import org.openqa.selenium.support.PageFactory;
 import com.cvs.qa.testbase.TestBase;
 import com.sun.corba.se.spi.orbutil.fsm.Action;
 
-public class Pharmacy extends TestBase{
-	
-	static Logger log = Logger.getLogger(Pharmacy.class);	
+public class Pharmacy extends TestBase {
 
-	@FindBy(xpath="//*[@id=\"headCVS\"]/div[3]/div/div[1]/ul/li[1]/a")
+	static Logger log = Logger.getLogger(Pharmacy.class);
+
+	@FindBy(xpath = "//*[@id=\"headCVS\"]/div[3]/div/div[1]/ul/li[1]/a")
 	WebElement pharmacyLink;
-	
-	@FindBy(xpath="//a[@id='menu-myrx']")
+
+	@FindBy(xpath = "//a[@id='menu-myrx']")
 	WebElement myPrescriptionLink;
-	
-	@FindBy(xpath="//a[@id='pharmacy_rxTransfer']")
+
+	@FindBy(xpath = "//a[@id='pharmacy_rxTransfer']")
 	WebElement transferRXtoCVSLink;
-	
+
 	public Pharmacy() {
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	public void transferPrescription() {
 		pharmacyLink.click();
-		//driver.findElement(By.xpath("//a[@id='menu-myrx']"));
+		// driver.findElement(By.xpath("//a[@id='menu-myrx']"));
 		Actions act = new Actions(driver);
 		act.moveToElement(myPrescriptionLink).build().perform();
 		transferRXtoCVSLink.click();
-		
+
 	}
 }

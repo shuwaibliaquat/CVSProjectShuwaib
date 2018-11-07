@@ -3,78 +3,80 @@
 <suite name="CVS Pharmacy Application Test Automation Test Suite">
 
 	<listeners>
-		<listener class-name="com.cvs.qa.ExtentReportListener.ExtentReporterNG" />
- 	</listeners>
- 	
- 	<listeners>
-        <listener class-name="com.cvs.qa.utilities.RunTimeTransformer"/>
-     </listeners>
+		<listener
+			class-name="com.cvs.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<listeners>
+		<listener
+			class-name="com.cvs.qa.utilities.RunTimeTransformer" />
+	</listeners>
 
 
 	<test name=" CVS HomePageTest">
-		<classes> 		
-			<class name="com.cvs.qa.testcases.HomePageTest"/>
+		<classes>
+			<class name="com.cvs.qa.testcases.HomePageTest" />
 		</classes>
 	</test>
-	
+
 	<test name=" CVS LogInPageTest">
-		<classes> 
-			<class name="com.cvs.qa.testcases.LogInTest"/>		
+		<classes>
+			<class name="com.cvs.qa.testcases.LogInTest" />
 		</classes>
 	</test>
-	
+
 	<test name=" CVS RegistrationPageTest">
-		<classes> 
-			<class name="com.cvs.qa.testcases.RegistrationTest"/>		
+		<classes>
+			<class name="com.cvs.qa.testcases.RegistrationTest" />
 		</classes>
 	</test>
-	
-	
+
+
 	<test name=" CVS MinuteClinicPageTest">
-		<classes> 
-			<class name="com.cvs.qa.testcases.MinuteClinicTest"/>		
+		<classes>
+			<class name="com.cvs.qa.testcases.MinuteClinicTest" />
 		</classes>
 	</test>
-	
+
 	<test name=" CVS ClinicLocatorTest">
-		<classes> 
-			<class name="com.cvs.qa.testcases.ClinicLocatorTest"/>		
+		<classes>
+			<class name="com.cvs.qa.testcases.ClinicLocatorTest" />
 		</classes>
 	</test>
-	
+
 	<test name=" CVS ContactLensesPageTest">
-		<classes> 
-			<class name="com.cvs.qa.testcases.ContactLensesPageTest"/>		
+		<classes>
+			<class name="com.cvs.qa.testcases.ContactLensesPageTest" />
 		</classes>
-	</test>	
-	
+	</test>
+
 	<test name=" CVS ExtraCareTest">
-		<classes> 
-			<class name="com.cvs.qa.testcases.ExtraCareTest"/>		
+		<classes>
+			<class name="com.cvs.qa.testcases.ExtraCareTest" />
 		</classes>
-	</test>	
-	
+	</test>
+
 	<test name=" CVS PhotoPageTest">
-		<classes> 
-			<class name="com.cvs.qa.testcases.PhotoPageTest"/>		
+		<classes>
+			<class name="com.cvs.qa.testcases.PhotoPageTest" />
 		</classes>
-	</test>	
-	
+	</test>
+
 	<test name=" CVS ShopPageTest">
-		<classes> 
-			<class name="com.cvs.qa.testcases.ShopPageTest"/>		
+		<classes>
+			<class name="com.cvs.qa.testcases.ShopPageTest" />
 		</classes>
-	</test>	
-	
+	</test>
+
 	<test name=" CVS SignUp4DealTest">
-		<classes> 
-			<class name="com.cvs.qa.testcases.SignUp4DealTest"/>		
+		<classes>
+			<class name="com.cvs.qa.testcases.SignUp4DealTest" />
 		</classes>
-	</test>	
-	
+	</test>
+
 	<test name=" CVS PharmacyPageTest">
-		<classes> 
-			<class name="com.cvs.qa.testcases.PharmacyTest"/>		
+		<classes>
+			<class name="com.cvs.qa.testcases.PharmacyTest" />
 		</classes>
 	</test>
 </suite>
