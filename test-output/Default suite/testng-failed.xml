@@ -7,8 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifySignUp4DealsTest"/>
-          <include name="verifySignU4DealsExcelDataTest" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="verifySignU4DealsExcelDataTest" invocation-numbers="0 2"/>
         </methods>
       </class> <!-- com.cvs.qa.testcases.SignUp4DealTest -->
     </classes>

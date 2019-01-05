@@ -5,7 +5,7 @@ com\cvs\qa\testcases\RegistrationTest.class
 com\cvs\qa\testcases\ContactLensesPageTest.class
 com\cvs\qa\testcases\PharmacyTest.class
 com\cvs\qa\testcases\PhotoPageTest.class
-com\cvs\qa\testcases\ClinicLocator.class
 com\cvs\qa\testcases\SignUp4DealTest.class
 com\cvs\qa\testcases\MinuteClinicTest.class
 com\cvs\qa\testcases\ShopPageTest.class
+com\cvs\qa\testcases\ClinicLocatorTest.class

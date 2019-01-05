@@ -1,5 +1,6 @@
 package com.cvs.qa.testcases;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -11,8 +12,9 @@ public class ExtraCareTest extends TestBase {
 
 	ExtraCare extraCare;
 
-	public ExtraCareTest() {
-		super();
+	public ExtraCareTest() {  //Constructor Method
+		//super();
+		System.out.println("This is Extra Care Test Class of CVS Pharmacy Project");
 	}
 
 	@BeforeMethod
@@ -31,7 +33,11 @@ public class ExtraCareTest extends TestBase {
 	@Test(priority = 2)
 	public void verifyExtraCareSignInTest() throws Exception {
 		extraCare.verifyExtraCareLink();
-		extraCare.verifyExtraCareSignIn("shuwaibliaquat@hotmail.com", "hhb12345");
+		extraCare.verifyExtraCareSignIn("abdurrahman@gmail.com", "hhb12345");
+		Thread.sleep(2000);
+		
+		String signUserName1 = extraCare.verifyExtraCareSignInName();
+		Assert.assertEquals(signUserName1, "Welcome abdur!");
 	}
 
 	@Test(priority = 3)
@@ -44,6 +50,6 @@ public class ExtraCareTest extends TestBase {
 	public void tearDown() {
 		driver.manage().deleteAllCookies();
 		driver.quit();
-	}
+	}   
 
 }

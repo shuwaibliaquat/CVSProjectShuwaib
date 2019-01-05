@@ -13,46 +13,46 @@ public class HomePage extends TestBase {
 
 	// Page Object Repository
 
-	@FindBy(xpath = "//html[@id='homepage']")
-	WebElement homePageLogo;
+	@FindBy(linkText = "CVS pharmacy™ homepage")
+	WebElement homePageLogo; //CVS HomePage logo
 
-	@FindBy(xpath = "//*[@id=\"headCVS\"]/div[3]/div/div[1]/ul/li[1]/a")
-	WebElement pharmacyLink;
+	@FindBy(xpath = "//a[@title='Pharmacy']")
+	WebElement pharmacyLink; //Pharmacy Link Tab
 
-	@FindBy(xpath = "//*[@id=\"headCVS\"]/div[3]/div/div[1]/ul/li[2]/a")
-	WebElement minuteClinicLink;
+	@FindBy(xpath = "//a[@title='MinuteClinic']")
+	WebElement minuteClinicLink; //minuteClinicLink Link Tab
 
-	@FindBy(xpath = "//*[@id=\"headCVS\"]/div[3]/div/div[1]/ul/li[3]/a")
-	WebElement shopLink;
+	@FindBy(xpath = "//a[@title='Shop']")
+	WebElement shopLink; //shopLink Link Tab
 
-	@FindBy(xpath = "//*[@id=\"headCVS\"]/div[3]/div/div[1]/ul/li[4]/a")
-	WebElement extraCareLink;
+	@FindBy(xpath = "//a[@title='ExtraCare']")
+	WebElement extraCareLink; //extraCareLink Link Tab
 
-	@FindBy(xpath = "//*[@id=\"headCVS\"]/div[3]/div/div[1]/ul/li[5]/a")
-	WebElement contactLensesLink;
+	@FindBy(xpath = "//a[@title='Contact Lenses']")
+	WebElement contactLensesLink; //contactLensesLink Link Tab
 
-	@FindBy(xpath = "//*[@id=\"headCVS\"]/div[3]/div/div[1]/ul/li[6]/a")
-	WebElement photoLink;
+	@FindBy(xpath = "//a[@title='CVS Photo']")
+	WebElement photoLink; //photoLink Link Tab
 
 	@FindBy(xpath = "//input[@id='searchbox']")
-	WebElement searchBox;
+	WebElement searchBox; //searchBox for searching in cvs.com
 
 	@FindBy(css = "#mobile-off__base")
-	WebElement searchBoxBtn;
+	WebElement searchBoxBtn; //button to click item from search box
 
-	@FindBy(xpath = "//*[@title=\"Find CVS Store Locations\"]")
-	WebElement storeLocatorLink;
+	@FindBy(xpath = "//li//a[contains(@href,'/store-locator/landing?icid=cvsheader:storelocator')]")
+	WebElement storeLocatorLink; //storeLocatorLink to locate store nearby
 
 	@FindBy(xpath = "//input[@id='search']")
-	WebElement storeLocatorSearchBox;
+	WebElement storeLocatorSearchBox; //SearchBox to locate store in store locator page
 
 	@FindBy(xpath = "//input[@id='srchstorebtn']")
-	WebElement storeLocatorSearchBtn;
+	WebElement storeLocatorSearchBtn; //storeLocatorSearchBtn to locate store in store locator page
 
 	@FindBy(css = "[for='Hr24_Flag'] .storeLocator_checkBox")
-	WebElement storeLocator24HrsChkBox;
+	WebElement storeLocator24HrsChkBox; //storeLocator Store open for 24 in store locator page
 
-	// Initializing the page object
+	// Initializing the page object using constructor 
 	public HomePage() {
 		PageFactory.initElements(driver, this);
 	}
@@ -72,10 +72,10 @@ public class HomePage extends TestBase {
 		searchBoxBtn.click();
 	}
 
-	public Pharmacy verifyPharmacyPageLink() {
+	public String verifyPharmacyPageLink() {
 		pharmacyLink.click();
-		// return driver.getTitle();
-		return new Pharmacy();
+		return driver.getTitle();
+		//return new Pharmacy();
 	}
 
 	public MinuteClinic verifyMinuteClinicLink() {

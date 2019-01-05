@@ -1,5 +1,6 @@
 package com.cvs.qa.testcases;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -11,12 +12,11 @@ import com.cvs.qa.pages.ContactLenses;
 import com.cvs.qa.pages.HomePage;
 import com.cvs.qa.testbase.TestBase;
 
-import sun.security.x509.GeneralNameInterface;
-
 public class ContactLensesPageTest extends TestBase {
 	ContactLenses contactLenses;
 	HomePage homePage;
-
+	static Logger log = Logger.getLogger(ContactLensesPageTest.class);
+	
 	public ContactLensesPageTest() {
 		super();
 	}
@@ -26,6 +26,7 @@ public class ContactLensesPageTest extends TestBase {
 		initialization();
 		contactLenses = new ContactLenses();
 		homePage = new HomePage();
+		log.info("Beginnning of ContactLensesPageTest Test Case");
 	}
 
 	@Test(priority = 1)

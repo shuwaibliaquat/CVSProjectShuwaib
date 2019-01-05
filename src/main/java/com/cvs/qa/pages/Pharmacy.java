@@ -8,23 +8,26 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.cvs.qa.testbase.TestBase;
-import com.sun.corba.se.spi.orbutil.fsm.Action;
 
 public class Pharmacy extends TestBase {
 
 	static Logger log = Logger.getLogger(Pharmacy.class);
 
-	@FindBy(xpath = "//*[@id=\"headCVS\"]/div[3]/div/div[1]/ul/li[1]/a")
+	@FindBy(xpath = "//a[@title='Pharmacy']")
 	WebElement pharmacyLink;
 
 	@FindBy(xpath = "//a[@id='menu-myrx']")
 	WebElement myPrescriptionLink;
 
-	@FindBy(xpath = "//a[@id='pharmacy_rxTransfer']")
+	@FindBy(xpath = "//a[@id='tt_rxt_button']")
 	WebElement transferRXtoCVSLink;
 
 	public Pharmacy() {
 		PageFactory.initElements(driver, this);
+	}
+	
+	public String verifyPharmacyPageTitle() {
+		return driver.getTitle();
 	}
 
 	public void transferPrescription() {

@@ -11,11 +11,11 @@ public class Photo extends TestBase {
 
 	static Logger log = Logger.getLogger(Photo.class);
 
-	@FindBy(css = ".navPhoto>a")
+	@FindBy(xpath = "//a[@title='CVS Photo']")
 	WebElement photoLink;
 
 	@FindBy(xpath = "//*[@id='hero1']/a/img")
-	WebElement shopNowPicLink;
+	WebElement printNowPicLink;
 
 	public Photo() {
 		PageFactory.initElements(driver, this);
@@ -26,9 +26,9 @@ public class Photo extends TestBase {
 		return driver.getTitle();
 	}
 
-	public void verifyShopNowLink() {
+	public void verifyPrintNowLink() {
 		photoLink.click();
-		shopNowPicLink.click();
+		printNowPicLink.click();
 
 	}
 

@@ -30,7 +30,7 @@ public class ShopPageTest extends TestBase {
 		shop.verifyShopLink();
 		Thread.sleep(2000);
 		String sTitle = shop.verifyShopPageTitle();
-		Assert.assertEquals(sTitle, "Beauty, Vitamins, Medicine & Everyday Essentials | CVS.com");
+		Assert.assertEquals(sTitle, "Shop Beauty, Vitamins, Medicine & Everyday Essentials | CVS.com");
 	}
 
 	@Test(priority = 2)
@@ -54,7 +54,7 @@ public class ShopPageTest extends TestBase {
 	@Test(priority = 5)
 	public void verifyAddCSLW2CartTest() {
 		shop.verifyShopLink();
-		shop.verifyAddCSLW2Cart();
+		shop.verifyHealthServicesLink();
 	}
 
 	@AfterMethod

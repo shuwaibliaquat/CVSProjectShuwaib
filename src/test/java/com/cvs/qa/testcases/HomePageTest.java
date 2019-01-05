@@ -1,16 +1,21 @@
 package com.cvs.qa.testcases;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
 import com.cvs.qa.pages.HomePage;
+import com.cvs.qa.pages.Pharmacy;
 import com.cvs.qa.testbase.TestBase;
 
 public class HomePageTest extends TestBase {
-
+	
 	HomePage homePage;
+	Pharmacy pharmacy;
+	static Logger log = Logger.getLogger(HomePageTest.class);
 
 	public HomePageTest() {
 		super();
@@ -20,6 +25,7 @@ public class HomePageTest extends TestBase {
 	public void setUp() {
 		initialization();
 		homePage = new HomePage();
+		log.info("Beginnning of Home Page Test Case");
 	}
 
 	@Test(priority = 0)
@@ -41,10 +47,12 @@ public class HomePageTest extends TestBase {
 	}
 
 	@Test(priority = 3)
-	public void verifyPharmacyLinkTest() {
-		homePage.verifyPharmacyPageLink();
-		// Assert.assertEquals(pharmacyTitle, "Pharmacy | Manage, Transfer, & Refill
-		// Prescriptions Online | CVS Pharmacy");
+	public void verifyPharmacyLinkTest() throws Exception {
+		//homePage.verifyPharmacyPageLink();
+		Thread.sleep(2000);
+		String pharmacyPageTitle = homePage.verifyPharmacyPageLink();
+		Assert.assertEquals(pharmacyPageTitle, "Pharmacy | Manage, Transfer, & Refill Prescriptions Online | CVS Pharmacy");
+		log.info(pharmacyPageTitle);
 	}
 
 	@Test(priority = 4)

@@ -65,6 +65,7 @@ public class TestBase {
 		driver.get(prop.getProperty("url"));
 
 		Set<String> pages = driver.getWindowHandles();
+		System.out.println("Unique name  of the Windows: " + pages);
 		System.out.println("Number of Windows: " + pages.size());
 	}
 

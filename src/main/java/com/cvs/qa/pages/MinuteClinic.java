@@ -11,7 +11,7 @@ public class MinuteClinic extends TestBase {
 
 	static Logger log = Logger.getLogger(MinuteClinic.class);
 
-	@FindBy(xpath = "//*[@id=\"headCVS\"]/div[3]/div/div[1]/ul/li[2]/a")
+	@FindBy(xpath = "//a[@title='MinuteClinic']")
 	WebElement minuteClinicLink;
 
 	@FindBy(xpath = "//input[@id='zip']")

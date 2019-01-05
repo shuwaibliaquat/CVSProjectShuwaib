@@ -13,7 +13,10 @@ public class SignUpPage4Savings extends TestBase {
 
 	static Logger log = Logger.getLogger(SignUpPage4Savings.class);
 
-	@FindBy(xpath = "//*[contains(text(),'Sign Up for Exclusive')]")
+	@FindBy(css ="[class='caret-white-hlightgray-14 fontsize14']")
+	WebElement signUpLinkHomePage;
+	
+	@FindBy(xpath = "//*[contains(text(),'Sign up for email')]")
 	WebElement signUpDealsLink;
 
 	@FindBy(xpath = "//input[@name='EMAILADDRESS_']")
@@ -64,17 +67,20 @@ public class SignUpPage4Savings extends TestBase {
 
 	public String verifySignUpDealpageTitle() {
 		log.info("Verifying Title of the signup webpage");
+		signUpLinkHomePage.click();
 		signUpDealsLink.click();
 		return driver.getTitle();
 	}
 
 	public void verifySignUp(String emailAddress, String reEnterEmailAddress, String ExtraCareNum, String FirstName,
 			String LastName, String zipCode, String DOB, String addLine1, String addLine2, String city, String state,
-			String zipCode2) {
+			String zipCode2) throws Exception {
 
 		log.info("Verifying signup steps in signup webpage");
 
+		signUpLinkHomePage.click();
 		signUpDealsLink.click();
+		Thread.sleep(2000);
 		signUpEmailAddress.sendKeys(emailAddress);
 		signUpReEnterEmailAddress.sendKeys(reEnterEmailAddress);
 		signUpXtraCardNum.sendKeys(ExtraCareNum);

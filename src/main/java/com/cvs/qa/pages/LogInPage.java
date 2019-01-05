@@ -11,22 +11,26 @@ public class LogInPage extends TestBase {
 
 	static Logger log = Logger.getLogger(LogInPage.class);
 
-	// @cacheLookup-> Instead of looking into browser DOM every time it will create
-	// a cache memory in eclipse and will look up from there instead of browser DOM.
-
-	@FindBy(xpath = "//a[@id='signInOverlay']")
+	/*@cacheLookup-> Instead of looking into browser DOM every time it will create
+	a cache memory in eclipse and will look up from there instead of browser DOM.
+*/
+	@FindBy(xpath = "//button[@id='signInBtn']")
 	@CacheLookup
 	WebElement topPanelsignInLink;
 
-	@FindBy(xpath = "//input[@id='loginPopup']")
+	@FindBy(xpath = "//input[@id='clubLoginEmail']")
 	@CacheLookup
 	WebElement emailAddressPopUpTextBox;
 
-	@FindBy(xpath = "//input[@id='passwordPopup']")
+	@FindBy(xpath = "//input[@id='clubLoginPwd']")
 	@CacheLookup
 	WebElement passwordPopUpTextBox;
+	
+	@FindBy(css = "[form]")
+	@CacheLookup
+	WebElement signInBtn;
 
-	@FindBy(xpath = "html/body/div[16]/div/div/div/div[2]/ul[1]/li[1]/a")
+/*	@FindBy(xpath = "html/body/div[16]/div/div/div/div[2]/ul[1]/li[1]/a")
 	@CacheLookup
 	WebElement signInLink;
 
@@ -40,21 +44,19 @@ public class LogInPage extends TestBase {
 
 	@FindBy(xpath = "//input[@id='password']")
 	@CacheLookup
-	WebElement pwdTextBox;
+	WebElement pwdTextBox;*/
 
-	@FindBy(xpath = "//*[@type='submit' and @class='ice-btn-default-red']")
-	@CacheLookup
-	WebElement signInBtn;
+	
 
 	public LogInPage() {
 		PageFactory.initElements(driver, this);
 	}
 
 	public void userLogIn(String emailAddress, String pwd) throws Exception {
-		signInLink.click();
+		topPanelsignInLink.click();
 		Thread.sleep(2000);
-		emailAddressTextBox.sendKeys(emailAddress);
-		pwdTextBox.sendKeys(pwd);
+		emailAddressPopUpTextBox.sendKeys(emailAddress);
+		passwordPopUpTextBox.sendKeys(pwd);
 		signInBtn.click();
 	}
 
@@ -63,7 +65,7 @@ public class LogInPage extends TestBase {
 		Thread.sleep(2000);
 		emailAddressPopUpTextBox.sendKeys(popUpemailAddress);
 		passwordPopUpTextBox.sendKeys(popUpPwd);
-		submitBtnPopUpTextBox.click();
+		signInBtn.click();
 	}
 
 }

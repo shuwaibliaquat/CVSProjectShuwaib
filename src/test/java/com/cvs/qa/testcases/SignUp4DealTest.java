@@ -25,7 +25,7 @@ public class SignUp4DealTest extends TestBase {
 	public void setUp() {
 		initialization();
 		signUp = new SignUpPage4Savings();
-		log.info("Beginnning of Test Case");
+		log.info("Beginnning of SignUp for Deals Test Case");
 	}
 
 	@DataProvider
@@ -41,7 +41,8 @@ public class SignUp4DealTest extends TestBase {
 	}
 
 	@Test(priority = 2)
-	public void verifySignUp4DealsTest() {
+	public void verifySignUp4DealsTest() throws Exception {
+		Thread.sleep(2000);
 		signUp.verifySignUp("shuwaibliaquat@hotmail.com", "shuwaibliaquat@hotmail.com", "123456", "Shuwaib", "Liaquat",
 				"07035", "01291989", "8", "Chapel hill rd", "Lincoln Park", "NJ", "07035");
 	}
@@ -49,8 +50,9 @@ public class SignUp4DealTest extends TestBase {
 	@Test(priority = 3, dataProvider = "getCVSTestDataSignUp4Savings")
 	public void verifySignU4DealsExcelDataTest(String emailAddress, String reEnterEmailAddress, String ExtraCareNum,
 			String FirstName, String LastName, String zipCode, String DOB, String addLine1, String addLine2,
-			String city, String state, String zipCode2) {
+			String city, String state, String zipCode2) throws Exception {
 		log.info("Beginnning of Excel Data Test");
+		Thread.sleep(2000);
 		signUp.verifySignUp(emailAddress, reEnterEmailAddress, ExtraCareNum, FirstName, LastName, zipCode, DOB,
 				addLine1, addLine2, city, state, zipCode2);
 	}

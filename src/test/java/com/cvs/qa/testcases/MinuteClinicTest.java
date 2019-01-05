@@ -28,7 +28,7 @@ public class MinuteClinicTest extends TestBase {
 	@Test(priority = 0)
 	public void verifyMinuteClinicPageTitleTest() {
 		String minuteClinicTitle = minuteClinic.verifyMinuteClinicPageTitle();
-		Assert.assertEquals(minuteClinicTitle, "MinuteClinic | CVS Walk In Clinics");
+		Assert.assertEquals(minuteClinicTitle, "CVS Walk-in Clinics | MinuteClinic");
 		try {
 			driver.findElement(By.xpath("//*[@id=\"acsMainInvite\"]/div/a[1]")).click();
 		} catch (Exception e) {
@@ -38,32 +38,36 @@ public class MinuteClinicTest extends TestBase {
 	}
 
 	@Test(priority = 1)
-	public void verifyZipCodeLocaterTest() {
-		// Thread.sleep(3000);
+	public void verifyZipCodeLocaterTest() throws Exception {
+		/*Thread.sleep(3000);
 		try {
 			driver.findElement(By.xpath("//*[@id=\"acsMainInvite\"]/div/a[1]")).click();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}*/
 		minuteClinic.verifyZipCodeLocater("07503");
+		Thread.sleep(2000);
 		minuteClinic.clickBtnVisitToday();
 
 	}
 
 	@Test(priority = 2)
-	public void verifyClinicLocatorPageTitleTest() {
-		try {
+	public void verifyClinicLocatorPageTitleTest() throws Exception {
+	/*	try {
 			driver.findElement(By.xpath("//*[@id=\"acsMainInvite\"]/div/a[1]")).click();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}*/
 		minuteClinic.verifyZipCodeLocater("07503");
+		Thread.sleep(2000);
 		minuteClinic.clickBtnVisitToday();
-		locator.verifyChkBox();
+		Thread.sleep(2000);
 		String ClinicLocatorPageTitle = locator.verifyClinicLocatorPageTitle();
 		Assert.assertEquals(ClinicLocatorPageTitle, "Walk In Clinic Locator | MinuteClinic - CVS.com");
+		locator.verifyChkBox();
+		
 
 	}
 

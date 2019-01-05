@@ -11,7 +11,7 @@ public class ClinicLocator extends TestBase{
 	
 	static Logger log = Logger.getLogger(ClinicLocator.class);
 	
-	@FindBy(xpath="//*[@id=\"content\"]/div/div[1]/div/div/div/div/div[1]/fieldset/label" )
+	@FindBy(xpath="//label[.='Only show clinics that accept my insurance. ']" )
 	WebElement clinicLocaterInsurancheckBox;
 	
 	public ClinicLocator() {

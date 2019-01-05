@@ -10,7 +10,7 @@ public class Shop extends TestBase {
 
 	static Logger log = Logger.getLogger(Shop.class);
 
-	@FindBy(xpath = "//li//a[contains(text(),'Shop')]")
+	@FindBy(xpath = "//a[@title='Shop']")
 	WebElement shopLink;
 
 	@FindBy(xpath = "//*[@id=\"router-content\"]/cvs-shop/gb-container/gb-cvs/gbcvs-browse-bar/nav/gbcvs-mega-nav-btn/button/div/span")
@@ -18,8 +18,9 @@ public class Shop extends TestBase {
 
 	@FindBy(xpath = "//p[.='Vitamins']")
 	WebElement vitaminLink;
-	@FindBy(css = "div:nth-of-type(1) > .gb-ui:nth-of-type(1) [data-is='gb-list-item']:nth-of-type(1) .gbcvs-c-productTileAtc__btn")
-	WebElement addCSLW2Cart;
+	
+	@FindBy(xpath = "//p[.='Health & Medicine']")
+	WebElement healthServicesLink;
 
 	public Shop() {
 		PageFactory.initElements(driver, this);
@@ -41,7 +42,7 @@ public class Shop extends TestBase {
 		vitaminLink.click();
 	}
 
-	public void verifyAddCSLW2Cart() {
-		addCSLW2Cart.click();
+	public void verifyHealthServicesLink() {
+		healthServicesLink.click();
 	}
 }

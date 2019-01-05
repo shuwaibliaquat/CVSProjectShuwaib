@@ -22,7 +22,7 @@ public class LogInTest extends TestBase {
 	public void setUp() {
 		initialization();
 		logIn = new LogInPage();
-		log.info("Beginnning of Test Case");
+		log.info("Beginnning of LogInTest Test Case");
 	}
 
 	@DataProvider

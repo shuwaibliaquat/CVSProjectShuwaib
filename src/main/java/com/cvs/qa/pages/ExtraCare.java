@@ -11,21 +11,27 @@ public class ExtraCare extends TestBase {
 
 	static Logger log = Logger.getLogger(ExtraCare.class);
 
-	@FindBy(xpath = "//navigation//div//div//li//a[contains(text(),'ExtraCare')]")
+	@FindBy(xpath = "//a[@title='ExtraCare']")
 	WebElement extraCareLink;
 
 	@FindBy(xpath = "//button[@value='Sign in']")
 	WebElement extraCareSignIn;
 
-	@FindBy(xpath = "//input[@id='loginPopup']")
-	WebElement extraCareSignInUserName;
+	@FindBy(xpath = "//input[@id='email']")
+	WebElement extraCareSignInEmailAddress;
 
-	@FindBy(xpath = "//input[@id='passwordPopup']")
+	@FindBy(xpath = "//button[@role='status']")
+	WebElement extraCareSignInContinueBtn;
+	
+	@FindBy(xpath = "//*[@id=\"password\"]")
 	WebElement extraCareSignInPwd;
-
-	@FindBy(xpath = "//button[@id='create']")
+	
+	@FindBy(css = ".twoStep-create-account")
 	WebElement extraCareSignInSubmitBtn;
 
+	@FindBy(xpath="//*[@id=\"headCVS\"]/div[1]/div/div[2]/ul/li[1]/div[1]/div[1]")
+	WebElement signInLabel;
+	
 	@FindBy(xpath = "//*[@id=\"basket\"]")
 	WebElement extraCareShoppingCart;
 
@@ -44,11 +50,18 @@ public class ExtraCare extends TestBase {
 	public void verifyExtraCareSignIn(String extraCareUserName, String ExtraCarePwd) throws Exception {
 		extraCareSignIn.click();
 		Thread.sleep(2000);
-		extraCareSignInUserName.sendKeys(extraCareUserName);
+		extraCareSignInEmailAddress.sendKeys(extraCareUserName);
+		extraCareSignInContinueBtn.click();
 		extraCareSignInPwd.sendKeys(ExtraCarePwd);
 		extraCareSignInSubmitBtn.click();
+		
 	}
 
+	public String verifyExtraCareSignInName() {
+		//signInLabel.isDisplayed();
+		return signInLabel.getText();
+	}
+	
 	public void verifyExtraCareShoppingCart() {
 		extraCareShoppingCart.click();
 	}

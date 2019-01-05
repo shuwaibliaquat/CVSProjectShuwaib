@@ -1,83 +1,18 @@
-2018-11-04 22:04:14,533  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:04:28,366  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:04:43,072  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:04:55,475  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:05:23,159  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:05:32,935  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:06:00,850  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:06:11,368  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:06:36,257  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:07:03,934  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:07:19,117  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:07:31,616  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:07:56,874  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:08:24,624  INFO [main] LogInTest:25 - Beginnning of Test Case
-2018-11-04 22:08:36,602  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:08:40,973  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:08:44,696  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:09:46,800  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:09:53,164  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:10:12,853  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:10:16,439  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:11:18,775  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:11:22,354  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:12:24,433  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:12:28,150  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:13:30,379  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:13:36,359  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:13:53,108  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:13:59,208  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:14:15,980  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:14:22,245  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:14:37,325  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:14:43,285  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:14:59,049  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:15:05,230  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:15:21,355  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:15:27,624  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:15:45,038  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:15:50,320  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2018-11-04 22:16:07,213  INFO [main] RegistrationTest:98 - Ending of Test Case
-2018-11-04 22:24:45,231  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2018-11-04 22:24:57,979  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2018-11-04 22:25:11,964  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2018-11-04 22:25:25,597  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2018-11-04 22:25:49,654  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2018-11-04 22:26:04,174  INFO [main] SignUp4DealTest:28 - Beginnning of Test Case
-2018-11-04 22:26:04,175  INFO [main] SignUpPage4Savings:66 - Verifying Title of the signup webpage
-2018-11-04 22:26:07,852  INFO [main] SignUp4DealTest:62 - End of Test Case
-2018-11-04 22:26:14,073  INFO [main] SignUp4DealTest:28 - Beginnning of Test Case
-2018-11-04 22:26:14,073  INFO [main] SignUpPage4Savings:75 - Verifying signup steps in signup webpage
-2018-11-04 22:26:22,607  INFO [main] SignUp4DealTest:62 - End of Test Case
-2018-11-04 22:26:28,284  INFO [main] SignUp4DealTest:28 - Beginnning of Test Case
-2018-11-04 22:26:28,285  INFO [main] SignUp4DealTest:53 - Beginnning of Excel Data Test
-2018-11-04 22:26:28,285  INFO [main] SignUpPage4Savings:75 - Verifying signup steps in signup webpage
-2018-11-04 22:26:35,946  INFO [main] SignUp4DealTest:62 - End of Test Case
-2018-11-04 22:26:41,672  INFO [main] SignUp4DealTest:28 - Beginnning of Test Case
-2018-11-04 22:26:41,673  INFO [main] SignUp4DealTest:53 - Beginnning of Excel Data Test
-2018-11-04 22:26:41,674  INFO [main] SignUpPage4Savings:75 - Verifying signup steps in signup webpage
-2018-11-04 22:26:49,119  INFO [main] SignUp4DealTest:62 - End of Test Case
-2018-11-04 22:26:55,134  INFO [main] SignUp4DealTest:28 - Beginnning of Test Case
-2018-11-04 22:26:55,135  INFO [main] SignUp4DealTest:53 - Beginnning of Excel Data Test
-2018-11-04 22:26:55,137  INFO [main] SignUpPage4Savings:75 - Verifying signup steps in signup webpage
-2018-11-04 22:27:02,698  INFO [main] SignUp4DealTest:62 - End of Test Case
-2018-11-04 22:27:09,865  INFO [main] SignUp4DealTest:28 - Beginnning of Test Case
-2018-11-04 22:27:09,866  INFO [main] SignUp4DealTest:53 - Beginnning of Excel Data Test
-2018-11-04 22:27:09,867  INFO [main] SignUpPage4Savings:75 - Verifying signup steps in signup webpage
-2018-11-04 22:27:32,612  INFO [main] SignUp4DealTest:62 - End of Test Case
-2018-11-04 22:27:39,841  INFO [main] SignUp4DealTest:28 - Beginnning of Test Case
-2018-11-04 22:27:39,842  INFO [main] SignUp4DealTest:53 - Beginnning of Excel Data Test
-2018-11-04 22:27:39,842  INFO [main] SignUpPage4Savings:75 - Verifying signup steps in signup webpage
-2018-11-04 22:27:47,506  INFO [main] SignUp4DealTest:62 - End of Test Case
-2018-11-04 22:27:53,398  INFO [main] SignUp4DealTest:28 - Beginnning of Test Case
-2018-11-04 22:27:53,399  INFO [main] SignUp4DealTest:53 - Beginnning of Excel Data Test
-2018-11-04 22:27:53,399  INFO [main] SignUpPage4Savings:75 - Verifying signup steps in signup webpage
-2018-11-04 22:28:01,407  INFO [main] SignUp4DealTest:62 - End of Test Case
-2018-11-04 22:28:07,166  INFO [main] SignUp4DealTest:28 - Beginnning of Test Case
-2018-11-04 22:28:07,166  INFO [main] SignUp4DealTest:53 - Beginnning of Excel Data Test
-2018-11-04 22:28:07,167  INFO [main] SignUpPage4Savings:75 - Verifying signup steps in signup webpage
-2018-11-04 22:28:16,999  INFO [main] SignUp4DealTest:62 - End of Test Case
-2018-11-04 22:28:23,274  INFO [main] SignUp4DealTest:28 - Beginnning of Test Case
-2018-11-04 22:28:23,275  INFO [main] SignUp4DealTest:53 - Beginnning of Excel Data Test
-2018-11-04 22:28:23,275  INFO [main] SignUpPage4Savings:75 - Verifying signup steps in signup webpage
-2018-11-04 22:28:31,295  INFO [main] SignUp4DealTest:62 - End of Test Case
+2019-01-05 01:34:07,560  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-01-05 01:34:12,357  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-01-05 01:34:18,259  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-01-05 01:34:38,151  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-01-05 01:34:44,771  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-01-05 01:35:01,281  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-01-05 01:35:06,481  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-01-05 01:35:22,563  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-01-05 01:35:28,353  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-01-05 01:35:45,048  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-01-05 01:35:51,614  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-01-05 01:36:07,724  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-01-05 01:36:13,154  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-01-05 01:36:29,028  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-01-05 01:36:35,958  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-01-05 01:36:51,100  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-01-05 01:36:58,062  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-01-05 01:37:14,504  INFO [main] RegistrationTest:98 - Ending of Test Case

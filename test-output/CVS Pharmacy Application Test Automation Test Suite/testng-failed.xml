@@ -8,8 +8,9 @@
     <classes>
       <class name="com.cvs.qa.testcases.HomePageTest">
         <methods>
+          <include name="verifyHomePageLogoTest"/>
           <include name="verifyPhotoLinkTest"/>
-          <include name="verifyStoreLocator24HrsStoreTest"/>
+          <include name="verifyContactLensesTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
@@ -22,25 +23,13 @@
         <methods>
           <include name="verifyTopPanelLogInTest"/>
           <include name="setUp"/>
-          <include name="verifyLogInTest"/>
           <include name="tearDown"/>
-          <include name="verifyTopPanelLogInTestExcelDataTest" invocation-numbers="0 1 1"/>
+          <include name="verifyLogInExcelData" invocation-numbers="0 0 0 0 2 2"/>
+          <include name="verifyTopPanelLogInTestExcelDataTest" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.cvs.qa.testcases.LogInTest -->
     </classes>
   </test> <!--  CVS LogInPageTest(failed) -->
-  <test thread-count="5" name=" CVS RegistrationPageTest(failed)">
-    <classes>
-      <class name="com.cvs.qa.testcases.RegistrationTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="registerCustomer"/>
-          <include name="registerMultipleCustomer" invocation-numbers="0 0 0"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.cvs.qa.testcases.RegistrationTest -->
-    </classes>
-  </test> <!--  CVS RegistrationPageTest(failed) -->
   <test thread-count="5" name=" CVS MinuteClinicPageTest(failed)">
     <classes>
       <class name="com.cvs.qa.testcases.MinuteClinicTest">
@@ -57,21 +46,50 @@
     <classes>
       <class name="com.cvs.qa.testcases.ContactLensesPageTest">
         <methods>
-          <include name="verifyDropDownMenuContactLensBrandsTest"/>
+          <include name="veriyAcuvueElementListTest"/>
+          <include name="veriyContactLensesPageTitleTest"/>
+          <include name="verifyAcuvueDefine30PKTest"/>
           <include name="veriyAirOptixBrandMouseHoverTest"/>
           <include name="setup"/>
+          <include name="verifyAcuvueDefine90PKTest"/>
           <include name="tearDown"/>
+          <include name="veriyAirOptixAquaElementListTest"/>
+          <include name="veriyLensTypeElementListTest"/>
+          <include name="veriyLensTypeTest"/>
         </methods>
       </class> <!-- com.cvs.qa.testcases.ContactLensesPageTest -->
     </classes>
   </test> <!--  CVS ContactLensesPageTest(failed) -->
+  <test thread-count="5" name=" CVS ExtraCareTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.ExtraCareTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyExtraCareShoppingCartTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.ExtraCareTest -->
+    </classes>
+  </test> <!--  CVS ExtraCareTest(failed) -->
+  <test thread-count="5" name=" CVS ShopPageTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.ShopPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyShopPageTitleTest"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.ShopPageTest -->
+    </classes>
+  </test> <!--  CVS ShopPageTest(failed) -->
   <test thread-count="5" name=" CVS SignUp4DealTest(failed)">
     <classes>
       <class name="com.cvs.qa.testcases.SignUp4DealTest">
         <methods>
+          <include name="verifyPageTitleTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifySignU4DealsExcelDataTest" invocation-numbers="3"/>
+          <include name="verifySignU4DealsExcelDataTest" invocation-numbers="0 0 0 1 1 2 4 4"/>
         </methods>
       </class> <!-- com.cvs.qa.testcases.SignUp4DealTest -->
     </classes>
