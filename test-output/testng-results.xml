@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="193864" started-at="2019-01-05T06:34:00Z" finished-at="2019-01-05T06:37:14Z">
+  <suite name="Default suite" duration-ms="182024" started-at="2019-01-21T06:14:15Z" finished-at="2019-01-21T06:17:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="193864" started-at="2019-01-05T06:34:00Z" finished-at="2019-01-05T06:37:14Z">
+    <test name="Default test" duration-ms="182024" started-at="2019-01-21T06:14:15Z" finished-at="2019-01-21T06:17:17Z">
       <class name="com.cvs.qa.testcases.RegistrationTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="6892" started-at="2019-01-05T06:34:00Z" finished-at="2019-01-05T06:34:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="6127" started-at="2019-01-21T06:14:15Z" finished-at="2019-01-21T06:14:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyRegistrationPageTitle()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="verifyRegistrationPageTitle" duration-ms="3429" started-at="2019-01-05T06:34:07Z" finished-at="2019-01-05T06:34:10Z">
+        <test-method status="PASS" signature="verifyRegistrationPageTitle()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="verifyRegistrationPageTitle" duration-ms="2520" started-at="2019-01-21T06:14:22Z" finished-at="2019-01-21T06:14:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationPageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1361" started-at="2019-01-05T06:34:10Z" finished-at="2019-01-05T06:34:12Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1073" started-at="2019-01-21T06:14:24Z" finished-at="2019-01-21T06:14:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="5899" started-at="2019-01-05T06:34:12Z" finished-at="2019-01-05T06:34:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="6368" started-at="2019-01-21T06:14:25Z" finished-at="2019-01-21T06:14:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerCustomer()[pri:1, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerCustomer" duration-ms="18502" started-at="2019-01-05T06:34:18Z" finished-at="2019-01-05T06:34:36Z">
+        <test-method status="PASS" signature="registerCustomer()[pri:1, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerCustomer" duration-ms="16866" started-at="2019-01-21T06:14:31Z" finished-at="2019-01-21T06:14:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1388" started-at="2019-01-05T06:34:36Z" finished-at="2019-01-05T06:34:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1035" started-at="2019-01-21T06:14:48Z" finished-at="2019-01-21T06:14:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="5901" started-at="2019-01-05T06:34:38Z" finished-at="2019-01-05T06:34:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="5143" started-at="2019-01-21T06:14:50Z" finished-at="2019-01-21T06:14:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="15338" started-at="2019-01-05T06:34:44Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-05T06:35:00Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="14596" started-at="2019-01-21T06:14:55Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-21T06:15:10Z">
           <params>
             <param index="0">
               <value>
@@ -121,15 +121,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1166" started-at="2019-01-05T06:35:00Z" finished-at="2019-01-05T06:35:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1153" started-at="2019-01-21T06:15:10Z" finished-at="2019-01-21T06:15:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="5200" started-at="2019-01-05T06:35:01Z" finished-at="2019-01-05T06:35:06Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="6221" started-at="2019-01-21T06:15:11Z" finished-at="2019-01-21T06:15:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="14709" started-at="2019-01-05T06:35:06Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-05T06:35:21Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="14846" started-at="2019-01-21T06:15:17Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-21T06:15:32Z">
           <params>
             <param index="0">
               <value>
@@ -215,15 +215,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1372" started-at="2019-01-05T06:35:21Z" finished-at="2019-01-05T06:35:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1141" started-at="2019-01-21T06:15:32Z" finished-at="2019-01-21T06:15:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="5791" started-at="2019-01-05T06:35:22Z" finished-at="2019-01-05T06:35:28Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="5528" started-at="2019-01-21T06:15:33Z" finished-at="2019-01-21T06:15:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="15467" started-at="2019-01-05T06:35:28Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-05T06:35:43Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="13696" started-at="2019-01-21T06:15:39Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-21T06:15:52Z">
           <params>
             <param index="0">
               <value>
@@ -309,15 +309,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1226" started-at="2019-01-05T06:35:43Z" finished-at="2019-01-05T06:35:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1101" started-at="2019-01-21T06:15:52Z" finished-at="2019-01-21T06:15:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="6565" started-at="2019-01-05T06:35:45Z" finished-at="2019-01-05T06:35:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="5365" started-at="2019-01-21T06:15:54Z" finished-at="2019-01-21T06:15:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="14972" started-at="2019-01-05T06:35:51Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-05T06:36:06Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="14175" started-at="2019-01-21T06:15:59Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-21T06:16:13Z">
           <params>
             <param index="0">
               <value>
@@ -403,15 +403,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1137" started-at="2019-01-05T06:36:06Z" finished-at="2019-01-05T06:36:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1194" started-at="2019-01-21T06:16:13Z" finished-at="2019-01-21T06:16:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="5430" started-at="2019-01-05T06:36:07Z" finished-at="2019-01-05T06:36:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="7274" started-at="2019-01-21T06:16:14Z" finished-at="2019-01-21T06:16:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="14576" started-at="2019-01-05T06:36:13Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-05T06:36:27Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="13924" started-at="2019-01-21T06:16:22Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-21T06:16:35Z">
           <params>
             <param index="0">
               <value>
@@ -497,15 +497,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1297" started-at="2019-01-05T06:36:27Z" finished-at="2019-01-05T06:36:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1120" started-at="2019-01-21T06:16:35Z" finished-at="2019-01-21T06:16:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="6929" started-at="2019-01-05T06:36:29Z" finished-at="2019-01-05T06:36:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="5009" started-at="2019-01-21T06:16:37Z" finished-at="2019-01-21T06:16:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="13787" started-at="2019-01-05T06:36:35Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-05T06:36:49Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="14986" started-at="2019-01-21T06:16:42Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-21T06:16:57Z">
           <params>
             <param index="0">
               <value>
@@ -591,15 +591,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1355" started-at="2019-01-05T06:36:49Z" finished-at="2019-01-05T06:36:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1137" started-at="2019-01-21T06:16:57Z" finished-at="2019-01-21T06:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="6962" started-at="2019-01-05T06:36:51Z" finished-at="2019-01-05T06:36:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="setUp" is-config="true" duration-ms="5173" started-at="2019-01-21T06:16:58Z" finished-at="2019-01-21T06:17:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="15167" started-at="2019-01-05T06:36:58Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-05T06:37:13Z">
+        <test-method status="PASS" signature="registerMultipleCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="registerMultipleCustomer" duration-ms="13303" started-at="2019-01-21T06:17:03Z" data-provider="getCVSTestDataRegistration" finished-at="2019-01-21T06:17:16Z">
           <params>
             <param index="0">
               <value>
@@ -685,7 +685,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerMultipleCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1273" started-at="2019-01-05T06:37:13Z" finished-at="2019-01-05T06:37:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cvs.qa.testcases.RegistrationTest@79be0360]" name="tearDown" is-config="true" duration-ms="1154" started-at="2019-01-21T06:17:16Z" finished-at="2019-01-21T06:17:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

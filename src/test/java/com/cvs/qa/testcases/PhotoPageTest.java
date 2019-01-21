@@ -24,7 +24,7 @@ public class PhotoPageTest extends TestBase {
 	@Test(priority = 1)
 	public void verifyPhotoPageTitleTest() {
 		String title = photo.verifyPhotoPageTitle();
-		Assert.assertEquals(title, "Photo Printing Services | Print Photos Online | CVS Photo");
+		Assert.assertEquals(title, "CVS Photo: Photo Prints | Passport Photos | Photo Cards | Photo Books");
 	//TEST Failed: java.lang.AssertionError: expected [Photo Printing Services | Print Photos Online | CVS Photo] but found [CVS Photo: Photo Prints | Passport Photos | Photo Cards | Photo Books]
 	}
 

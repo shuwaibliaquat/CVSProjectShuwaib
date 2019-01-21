@@ -4,94 +4,38 @@
   <listeners>
     <listener class-name="com.cvs.qa.utilities.RunTimeTransformer"/>
   </listeners>
-  <test thread-count="5" name=" CVS HomePageTest(failed)">
-    <classes>
-      <class name="com.cvs.qa.testcases.HomePageTest">
-        <methods>
-          <include name="verifyHomePageLogoTest"/>
-          <include name="verifyPhotoLinkTest"/>
-          <include name="verifyContactLensesTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.cvs.qa.testcases.HomePageTest -->
-    </classes>
-  </test> <!--  CVS HomePageTest(failed) -->
-  <test thread-count="5" name=" CVS LogInPageTest(failed)">
-    <classes>
-      <class name="com.cvs.qa.testcases.LogInTest">
-        <methods>
-          <include name="verifyTopPanelLogInTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="verifyLogInExcelData" invocation-numbers="0 0 0 0 2 2"/>
-          <include name="verifyTopPanelLogInTestExcelDataTest" invocation-numbers="0 1"/>
-        </methods>
-      </class> <!-- com.cvs.qa.testcases.LogInTest -->
-    </classes>
-  </test> <!--  CVS LogInPageTest(failed) -->
   <test thread-count="5" name=" CVS MinuteClinicPageTest(failed)">
     <classes>
       <class name="com.cvs.qa.testcases.MinuteClinicTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verifyMinuteClinicPageTitleTest"/>
+          <include name="verifyZipCodeLocaterTest"/>
           <include name="verifyClinicLocatorPageTitleTest"/>
         </methods>
       </class> <!-- com.cvs.qa.testcases.MinuteClinicTest -->
     </classes>
   </test> <!--  CVS MinuteClinicPageTest(failed) -->
-  <test thread-count="5" name=" CVS ContactLensesPageTest(failed)">
-    <classes>
-      <class name="com.cvs.qa.testcases.ContactLensesPageTest">
-        <methods>
-          <include name="veriyAcuvueElementListTest"/>
-          <include name="veriyContactLensesPageTitleTest"/>
-          <include name="verifyAcuvueDefine30PKTest"/>
-          <include name="veriyAirOptixBrandMouseHoverTest"/>
-          <include name="setup"/>
-          <include name="verifyAcuvueDefine90PKTest"/>
-          <include name="tearDown"/>
-          <include name="veriyAirOptixAquaElementListTest"/>
-          <include name="veriyLensTypeElementListTest"/>
-          <include name="veriyLensTypeTest"/>
-        </methods>
-      </class> <!-- com.cvs.qa.testcases.ContactLensesPageTest -->
-    </classes>
-  </test> <!--  CVS ContactLensesPageTest(failed) -->
   <test thread-count="5" name=" CVS ExtraCareTest(failed)">
     <classes>
       <class name="com.cvs.qa.testcases.ExtraCareTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyExtraCareShoppingCartTest"/>
+          <include name="verifyExtraCareSignInTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.cvs.qa.testcases.ExtraCareTest -->
     </classes>
   </test> <!--  CVS ExtraCareTest(failed) -->
-  <test thread-count="5" name=" CVS ShopPageTest(failed)">
+  <test thread-count="5" name=" CVS PhotoPageTest(failed)">
     <classes>
-      <class name="com.cvs.qa.testcases.ShopPageTest">
+      <class name="com.cvs.qa.testcases.PhotoPageTest">
         <methods>
+          <include name="verifyPhotoPageTitleTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyShopPageTitleTest"/>
         </methods>
-      </class> <!-- com.cvs.qa.testcases.ShopPageTest -->
+      </class> <!-- com.cvs.qa.testcases.PhotoPageTest -->
     </classes>
-  </test> <!--  CVS ShopPageTest(failed) -->
-  <test thread-count="5" name=" CVS SignUp4DealTest(failed)">
-    <classes>
-      <class name="com.cvs.qa.testcases.SignUp4DealTest">
-        <methods>
-          <include name="verifyPageTitleTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="verifySignU4DealsExcelDataTest" invocation-numbers="0 0 0 1 1 2 4 4"/>
-        </methods>
-      </class> <!-- com.cvs.qa.testcases.SignUp4DealTest -->
-    </classes>
-  </test> <!--  CVS SignUp4DealTest(failed) -->
+  </test> <!--  CVS PhotoPageTest(failed) -->
 </suite> <!-- Failed suite [CVS Pharmacy Application Test Automation Test Suite] -->

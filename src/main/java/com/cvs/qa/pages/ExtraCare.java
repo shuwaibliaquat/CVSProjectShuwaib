@@ -29,7 +29,7 @@ public class ExtraCare extends TestBase {
 	@FindBy(css = ".twoStep-create-account")
 	WebElement extraCareSignInSubmitBtn;
 
-	@FindBy(xpath="//*[@id=\"headCVS\"]/div[1]/div/div[2]/ul/li[1]/div[1]/div[1]")
+	@FindBy(xpath="//li//p[text()=\"Welcome abdur!\"]")
 	WebElement signInLabel;
 	
 	@FindBy(xpath = "//*[@id=\"basket\"]")

@@ -6,13 +6,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import com.cvs.qa.testbase.TestBase;
 
 public class Registration extends TestBase {
 
 	static Logger log = Logger.getLogger(Registration.class);
-
+	//WebDriverWait wait=new WebDriverWait(driver, 20); //Explicit Wait
 	// Registration 1st Step:>>
 
 	@FindBy(xpath = "//a[contains(text(),'Create an Account')]")
@@ -141,7 +144,9 @@ public class Registration extends TestBase {
 	}
 
 	public void clickContinue() throws InterruptedException {
-
+		//ExplicitWaiting
+		//RegContinueBtn= wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath( "//*[@id=\\\"continueAccount\\\"]")));
+		
 		if (RegContinueBtn.isEnabled()) {
 			RegContinueBtn.click();
 		} else {
