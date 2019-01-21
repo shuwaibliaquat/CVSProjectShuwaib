@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\JavaLearner\AppData\Local\Temp\testng-eclipse--538460364\testng-customsuite.xml</span>
+                    <span>C:\Users\JavaLearner\AppData\Local\Temp\testng-eclipse--1290371836\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.PhotoPageTest" hash-for-method="verifyPhotoPageHomeTitleTest">verifyPhotoPageHomeTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.PhotoPageTest" hash-for-method="verifyPhotoUploadTest">verifyPhotoUploadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,47 +121,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.RegistrationTest" hash-for-method="registerCustomer">registerCustomer</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.PhotoPageTest" hash-for-method="verifyPhotoPageTitleTest">verifyPhotoPageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.RegistrationTest" hash-for-method="registerMultipleCustomer(Shuwaib4, Liaquat4, shuwaibliaquat1@hotmail.com, Apple12350, Apple12350, tommy, 116 Wayne Ave, 6th, ...)">registerMultipleCustomer(Shuwaib4, Liaquat4, shuwaibliaquat1@hotmail.com, Apple12350, Apple12350, tommy, 116 Wayne Ave, 6th, ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.RegistrationTest" hash-for-method="registerMultipleCustomer(Shuwaib1, Liaquat1, shuwaibliaquat1@hotmail.com, Apple12346, Apple12346, Shabana, 112 Wayne Ave, 2nd...)">registerMultipleCustomer(Shuwaib1, Liaquat1, shuwaibliaquat1@hotmail.com, Apple12346, Apple12346, Shabana, 112 Wayne Ave, 2nd...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.RegistrationTest" hash-for-method="registerMultipleCustomer(Shuwaib3, Liaquat3, shuwaibliaquat@hotmail.com, Apple12349, Apple12349, google, 115 Wayne Ave, 5th, ...)">registerMultipleCustomer(Shuwaib3, Liaquat3, shuwaibliaquat@hotmail.com, Apple12349, Apple12349, google, 115 Wayne Ave, 5th, ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.RegistrationTest" hash-for-method="registerMultipleCustomer(Linie, Liaquat, shuwaibliaquat@hotmail.com, Apple12347, Apple12347, yahoo, 113 Wayne Ave, 3rd, Pater...)">registerMultipleCustomer(Linie, Liaquat, shuwaibliaquat@hotmail.com, Apple12347, Apple12347, yahoo, 113 Wayne Ave, 3rd, Pater...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.RegistrationTest" hash-for-method="registerMultipleCustomer(Shuwaib, Liaquat, shuwaibliaquat@hotmail.com, Apple12345, Apple12345, Krish, 111 Wayne Ave, 1st, Pat...)">registerMultipleCustomer(Shuwaib, Liaquat, shuwaibliaquat@hotmail.com, Apple12345, Apple12345, Krish, 111 Wayne Ave, 1st, Pat...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.RegistrationTest" hash-for-method="registerMultipleCustomer(Nishat, Chowdhury, nishat0598@gmail.com, Apple555, Apple555, Tia, 12 Elk St, 7th, Lincoln Park, MI, ...)">registerMultipleCustomer(Nishat, Chowdhury, nishat0598@gmail.com, Apple555, Apple555, Tia, 12 Elk St, 7th, Lincoln Park, MI, ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.RegistrationTest" hash-for-method="registerMultipleCustomer(Shuwaib, Liaquat, shuwaibliaquat1@hotmail.com, Apple12348, Apple12348, hotmail, 114 Wayne Ave, 4th, ...)">registerMultipleCustomer(Shuwaib, Liaquat, shuwaibliaquat1@hotmail.com, Apple12348, Apple12348, hotmail, 114 Wayne Ave, 4th, ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.RegistrationTest" hash-for-method="verifyRegistrationPageTitle">verifyRegistrationPageTitle</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.cvs.qa.testcases.PhotoPageTest" hash-for-method="verifyShopNowPicLinkTest">verifyShopNowPicLinkTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -157,80 +141,144 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.cvs.qa.testcases.RegistrationTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.cvs.qa.testcases.PhotoPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="registerCustomer">
-                  </a> <!-- registerCustomer -->
-                  <span class="method-name">registerCustomer</span>
+                  <a name="verifyPhotoPageHomeTitleTest">
+                  </a> <!-- verifyPhotoPageHomeTitleTest -->
+                  <span class="method-name">verifyPhotoPageHomeTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Photo Printing Services | Print Photos Online | CVS Photo] but found [CVS Photo: Photo Prints | Passport Photos | Photo Cards | Photo Books]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.cvs.qa.testcases.PhotoPageTest.verifyPhotoPageHomeTitleTest(PhotoPageTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="registerMultipleCustomer(Shuwaib4, Liaquat4, shuwaibliaquat1@hotmail.com, Apple12350, Apple12350, tommy, 116 Wayne Ave, 6th, ...)">
-                  </a> <!-- registerMultipleCustomer(Shuwaib4, Liaquat4, shuwaibliaquat1@hotmail.com, Apple12350, Apple12350, tommy, 116 Wayne Ave, 6th, ...) -->
-                  <span class="method-name">registerMultipleCustomer</span>
-                  <span class="parameters">(Shuwaib4, Liaquat4, shuwaibliaquat1@hotmail.com, Apple12350, Apple12350, tommy, 116 Wayne Ave, 6th, Paterson, MI, 07508, 2019814576, 06, 30, 1989, Male)</span>
+                  <a name="verifyPhotoUploadTest">
+                  </a> <!-- verifyPhotoUploadTest -->
+                  <span class="method-name">verifyPhotoUploadTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-JEV6767&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\JAVALE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52989}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 79fbdd79b4871dc9a3932b1ec0859d96
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.cvs.qa.pages.Photo.uploadPhoto(Photo.java:86)
+	at com.cvs.qa.testcases.PhotoPageTest.verifyPhotoUploadTest(PhotoPageTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cvs.qa.testcases.PhotoPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPhotoPageTitleTest">
+                  </a> <!-- verifyPhotoPageTitleTest -->
+                  <span class="method-name">verifyPhotoPageTitleTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="registerMultipleCustomer(Shuwaib1, Liaquat1, shuwaibliaquat1@hotmail.com, Apple12346, Apple12346, Shabana, 112 Wayne Ave, 2nd...)">
-                  </a> <!-- registerMultipleCustomer(Shuwaib1, Liaquat1, shuwaibliaquat1@hotmail.com, Apple12346, Apple12346, Shabana, 112 Wayne Ave, 2nd...) -->
-                  <span class="method-name">registerMultipleCustomer</span>
-                  <span class="parameters">(Shuwaib1, Liaquat1, shuwaibliaquat1@hotmail.com, Apple12346, Apple12346, Shabana, 112 Wayne Ave, 2nd, Paterson, NJ, 07504, 2019814576, 02, 27, 1989, Male)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registerMultipleCustomer(Shuwaib3, Liaquat3, shuwaibliaquat@hotmail.com, Apple12349, Apple12349, google, 115 Wayne Ave, 5th, ...)">
-                  </a> <!-- registerMultipleCustomer(Shuwaib3, Liaquat3, shuwaibliaquat@hotmail.com, Apple12349, Apple12349, google, 115 Wayne Ave, 5th, ...) -->
-                  <span class="method-name">registerMultipleCustomer</span>
-                  <span class="parameters">(Shuwaib3, Liaquat3, shuwaibliaquat@hotmail.com, Apple12349, Apple12349, google, 115 Wayne Ave, 5th, Paterson, NY, 07507, 2019814576, 05, 30, 1989, Male)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registerMultipleCustomer(Linie, Liaquat, shuwaibliaquat@hotmail.com, Apple12347, Apple12347, yahoo, 113 Wayne Ave, 3rd, Pater...)">
-                  </a> <!-- registerMultipleCustomer(Linie, Liaquat, shuwaibliaquat@hotmail.com, Apple12347, Apple12347, yahoo, 113 Wayne Ave, 3rd, Pater...) -->
-                  <span class="method-name">registerMultipleCustomer</span>
-                  <span class="parameters">(Linie, Liaquat, shuwaibliaquat@hotmail.com, Apple12347, Apple12347, yahoo, 113 Wayne Ave, 3rd, Paterson, DC, 07505, 2019814576, 03, 28, 1989, Female)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registerMultipleCustomer(Shuwaib, Liaquat, shuwaibliaquat@hotmail.com, Apple12345, Apple12345, Krish, 111 Wayne Ave, 1st, Pat...)">
-                  </a> <!-- registerMultipleCustomer(Shuwaib, Liaquat, shuwaibliaquat@hotmail.com, Apple12345, Apple12345, Krish, 111 Wayne Ave, 1st, Pat...) -->
-                  <span class="method-name">registerMultipleCustomer</span>
-                  <span class="parameters">(Shuwaib, Liaquat, shuwaibliaquat@hotmail.com, Apple12345, Apple12345, Krish, 111 Wayne Ave, 1st, Paterson, NJ, 07503, 2019814576, 01, 26, 1989, Male)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registerMultipleCustomer(Nishat, Chowdhury, nishat0598@gmail.com, Apple555, Apple555, Tia, 12 Elk St, 7th, Lincoln Park, MI, ...)">
-                  </a> <!-- registerMultipleCustomer(Nishat, Chowdhury, nishat0598@gmail.com, Apple555, Apple555, Tia, 12 Elk St, 7th, Lincoln Park, MI, ...) -->
-                  <span class="method-name">registerMultipleCustomer</span>
-                  <span class="parameters">(Nishat, Chowdhury, nishat0598@gmail.com, Apple555, Apple555, Tia, 12 Elk St, 7th, Lincoln Park, MI, 48212, 2019814576, 11, 21, 2000, Female)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registerMultipleCustomer(Shuwaib, Liaquat, shuwaibliaquat1@hotmail.com, Apple12348, Apple12348, hotmail, 114 Wayne Ave, 4th, ...)">
-                  </a> <!-- registerMultipleCustomer(Shuwaib, Liaquat, shuwaibliaquat1@hotmail.com, Apple12348, Apple12348, hotmail, 114 Wayne Ave, 4th, ...) -->
-                  <span class="method-name">registerMultipleCustomer</span>
-                  <span class="parameters">(Shuwaib, Liaquat, shuwaibliaquat1@hotmail.com, Apple12348, Apple12348, hotmail, 114 Wayne Ave, 4th, Paterson, NJ, 07506, 2019814576, 04, 29, 1989, Male)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyRegistrationPageTitle">
-                  </a> <!-- verifyRegistrationPageTitle -->
-                  <span class="method-name">verifyRegistrationPageTitle</span>
+                  <a name="verifyShopNowPicLinkTest">
+                  </a> <!-- verifyShopNowPicLinkTest -->
+                  <span class="method-name">verifyShopNowPicLinkTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -238,7 +286,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\JavaLearner\AppData\Local\Temp\testng-eclipse--538460364\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\JavaLearner\AppData\Local\Temp\testng-eclipse--1290371836\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -247,7 +295,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.cvs.qa.testcases.RegistrationTest&quot;/&gt;
+      &lt;class name=&quot;com.cvs.qa.testcases.PhotoPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -287,48 +335,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'registerCustomer')
-data.setCell(0, 2, 'com.cvs.qa.testcases.RegistrationTest')
-data.setCell(0, 3, 16866);
+data.setCell(0, 1, 'verifyPhotoUploadTest')
+data.setCell(0, 2, 'com.cvs.qa.testcases.PhotoPageTest')
+data.setCell(0, 3, 11538);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'registerMultipleCustomer')
-data.setCell(1, 2, 'com.cvs.qa.testcases.RegistrationTest')
-data.setCell(1, 3, 14986);
+data.setCell(1, 1, 'verifyPhotoPageHomeTitleTest')
+data.setCell(1, 2, 'com.cvs.qa.testcases.PhotoPageTest')
+data.setCell(1, 3, 11165);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'registerMultipleCustomer')
-data.setCell(2, 2, 'com.cvs.qa.testcases.RegistrationTest')
-data.setCell(2, 3, 14846);
+data.setCell(2, 1, 'verifyShopNowPicLinkTest')
+data.setCell(2, 2, 'com.cvs.qa.testcases.PhotoPageTest')
+data.setCell(2, 3, 7306);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'registerMultipleCustomer')
-data.setCell(3, 2, 'com.cvs.qa.testcases.RegistrationTest')
-data.setCell(3, 3, 14596);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'registerMultipleCustomer')
-data.setCell(4, 2, 'com.cvs.qa.testcases.RegistrationTest')
-data.setCell(4, 3, 14175);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'registerMultipleCustomer')
-data.setCell(5, 2, 'com.cvs.qa.testcases.RegistrationTest')
-data.setCell(5, 3, 13924);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'registerMultipleCustomer')
-data.setCell(6, 2, 'com.cvs.qa.testcases.RegistrationTest')
-data.setCell(6, 3, 13696);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'registerMultipleCustomer')
-data.setCell(7, 2, 'com.cvs.qa.testcases.RegistrationTest')
-data.setCell(7, 3, 13303);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyRegistrationPageTitle')
-data.setCell(8, 2, 'com.cvs.qa.testcases.RegistrationTest')
-data.setCell(8, 3, 2520);
+data.setCell(3, 1, 'verifyPhotoPageTitleTest')
+data.setCell(3, 2, 'com.cvs.qa.testcases.PhotoPageTest')
+data.setCell(3, 3, 5958);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -354,114 +382,58 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.cvs.qa.testcases.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.cvs.qa.testcases.PhotoPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyRegistrationPageTitle</span>
-                <span class="method-start">6127 ms</span>
+                <span class="method-name">verifyPhotoPageTitleTest</span>
+                <span class="method-start">6187 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8651 ms</span>
+                <span class="method-start">12151 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">9725 ms</span>
+                <span class="method-start">13249 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">registerCustomer</span>
-                <span class="method-start">16093 ms</span>
+                <span class="method-name">verifyShopNowPicLinkTest</span>
+                <span class="method-start">18273 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32962 ms</span>
+                <span class="method-start">25580 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">34738 ms</span>
+                <span class="method-start">26738 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">registerMultipleCustomer(Shuwaib, Liaquat, shuwaibliaquat@hotmail.com, Apple12345, Apple12345, Krish, 111 Wayne Ave, 1st, Pat...)</span>
-                <span class="method-start">39881 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPhotoPageHomeTitleTest</span>
+                <span class="method-start">31888 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54480 ms</span>
+                <span class="method-start">43057 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">55634 ms</span>
+                <span class="method-start">44387 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">registerMultipleCustomer(Shuwaib1, Liaquat1, shuwaibliaquat1@hotmail.com, Apple12346, Apple12346, Shabana, 112 Wayne Ave, 2nd...)</span>
-                <span class="method-start">61855 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPhotoUploadTest</span>
+                <span class="method-start">49688 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">76704 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">77846 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registerMultipleCustomer(Linie, Liaquat, shuwaibliaquat@hotmail.com, Apple12347, Apple12347, yahoo, 113 Wayne Ave, 3rd, Pater...)</span>
-                <span class="method-start">83374 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">97072 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">98173 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registerMultipleCustomer(Shuwaib, Liaquat, shuwaibliaquat1@hotmail.com, Apple12348, Apple12348, hotmail, 114 Wayne Ave, 4th, ...)</span>
-                <span class="method-start">103538 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">117716 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">118911 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registerMultipleCustomer(Shuwaib3, Liaquat3, shuwaibliaquat@hotmail.com, Apple12349, Apple12349, google, 115 Wayne Ave, 5th, ...)</span>
-                <span class="method-start">126185 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">140110 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">141231 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registerMultipleCustomer(Shuwaib4, Liaquat4, shuwaibliaquat1@hotmail.com, Apple12350, Apple12350, tommy, 116 Wayne Ave, 6th, ...)</span>
-                <span class="method-start">146240 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">161227 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">162365 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">registerMultipleCustomer(Nishat, Chowdhury, nishat0598@gmail.com, Apple555, Apple555, Tia, 12 Elk St, 7th, Lincoln Park, MI, ...)</span>
-                <span class="method-start">167538 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">180842 ms</span>
+                <span class="method-start">61227 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

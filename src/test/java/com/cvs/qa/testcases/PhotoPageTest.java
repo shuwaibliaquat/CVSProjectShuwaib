@@ -25,12 +25,28 @@ public class PhotoPageTest extends TestBase {
 	public void verifyPhotoPageTitleTest() {
 		String title = photo.verifyPhotoPageTitle();
 		Assert.assertEquals(title, "CVS Photo: Photo Prints | Passport Photos | Photo Cards | Photo Books");
-	//TEST Failed: java.lang.AssertionError: expected [Photo Printing Services | Print Photos Online | CVS Photo] but found [CVS Photo: Photo Prints | Passport Photos | Photo Cards | Photo Books]
+		// TEST Failed: java.lang.AssertionError: expected [Photo Printing Services |
+		// Print Photos Online | CVS Photo] but found [CVS Photo: Photo Prints |
+		// Passport Photos | Photo Cards | Photo Books]
 	}
 
 	@Test(priority = 2)
 	public void verifyShopNowPicLinkTest() {
 		photo.verifyPrintNowLink();
+	}
+
+	@Test(priority = 3)
+	public void verifyPhotoPageHomeTitleTest() {
+		String title1 = photo.verifyPhotoLinkHomePageTitle("shuwaibliaquat@hotmail.com", "hhb12345");
+		Assert.assertEquals(title1, "Photo Printing Services | Print Photos Online | CVS Photo");
+	}
+
+	@Test(priority = 0)
+	public void verifyPhotoUploadTest() throws Exception {
+		photo.verifyPhotoLinkHomePageTitle("shuwaibliaquat@hotmail.com", "hhb12345");
+		photo.uploadPhoto();
+		
+		//This test passed multiple times but CVS has some kind of blockage which makes testing difficult
 	}
 
 	@AfterMethod
