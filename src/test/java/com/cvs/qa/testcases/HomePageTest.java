@@ -32,7 +32,9 @@ public class HomePageTest extends TestBase {
 	public void verifyHomePageTitleTest() {
 		String homePageTitle = homePage.verifyHomeTitle();
 		Assert.assertEquals(homePageTitle, "CVS - Online Drugstore, Pharmacy, Prescriptions & Health Information");
-	}
+		String cwd = System.getProperty("user.dir");
+        System.out.println("Current working directory : " + cwd);
+        }
 
 	@Test(priority = 1)
 	public void verifyHomePageLogoTest() {

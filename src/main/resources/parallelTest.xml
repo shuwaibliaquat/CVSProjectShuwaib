@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test for Pharmacy Class" parallel ="tests">
+ <listeners>
+		<listener
+			class-name="com.cvs.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<listeners>
+		<listener
+			class-name="com.cvs.qa.utilities.RunTimeTransformer" />
+	</listeners>
+	
+	
+  <test name="Test">
+  <parameter name = "browser" value = "chrome"/>
+    <classes>
+          <class name="com.cvs.qa.testcases.PharmacyTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test1">
+  <parameter name = "browser" value = "chrome"/>
+    <classes>
+          <class name="com.cvs.qa.testcases.PharmacyTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test2">
+  <parameter name = "browser" value = "chrome"/>
+    <classes>
+          <class name="com.cvs.qa.testcases.PharmacyTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- CrossBrowser Test for Pharmacy Class -->

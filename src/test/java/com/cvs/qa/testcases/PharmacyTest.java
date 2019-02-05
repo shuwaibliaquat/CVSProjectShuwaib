@@ -1,8 +1,11 @@
 package com.cvs.qa.testcases;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import com.cvs.qa.pages.LogInPage;
 import com.cvs.qa.pages.Pharmacy;
@@ -19,11 +22,21 @@ public class PharmacyTest extends TestBase {
 	}
 
 	@BeforeMethod
-	public void setUp() {
-		initialization();
+	@Parameters("browser")
+	public void setUp(String browserName) {
+		// initialization();
+		if (browserName.equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "Resources\\chromedriver.exe");
+			driver = new ChromeDriver();
+		} else if (browserName.equals("FF")) {
+			System.setProperty("webdriver.gecko.driver", "Resources\\geckodriver.exe");
+			driver = new FirefoxDriver();
+
+		}
+		driver.get(prop.getProperty("url"));
 		pharmacy = new Pharmacy();
 		logIn = new LogInPage();
-		log.info("Beginnning of Pharmacy Test Case");
+		log.info("Beginnning of Pharmacy Test Case for CrossBrowser and Patallel testing");
 	}
 
 	@Test(priority = 0)
@@ -34,7 +47,7 @@ public class PharmacyTest extends TestBase {
 
 	@AfterMethod
 	public void tearDown() {
-
+		driver.manage().deleteAllCookies();
 		driver.quit();
 	}
 }

@@ -4,6 +4,18 @@
   <listeners>
     <listener class-name="com.cvs.qa.utilities.RunTimeTransformer"/>
   </listeners>
+  <test thread-count="5" name=" CVS RegistrationPageTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.RegistrationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="registerCustomer"/>
+          <include name="registerMultipleCustomer" invocation-numbers="0 0 0 0 2 2 4 4"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.RegistrationTest -->
+    </classes>
+  </test> <!--  CVS RegistrationPageTest(failed) -->
   <test thread-count="5" name=" CVS MinuteClinicPageTest(failed)">
     <classes>
       <class name="com.cvs.qa.testcases.MinuteClinicTest">
@@ -31,11 +43,24 @@
     <classes>
       <class name="com.cvs.qa.testcases.PhotoPageTest">
         <methods>
-          <include name="verifyPhotoPageTitleTest"/>
+          <include name="verifyPhotoPageHomeTitleTest"/>
+          <include name="verifyPhotoUploadTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.cvs.qa.testcases.PhotoPageTest -->
     </classes>
   </test> <!--  CVS PhotoPageTest(failed) -->
+  <test thread-count="5" name=" CVS SignUp4DealTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.SignUp4DealTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifySignUp4DealsTest"/>
+          <include name="verifySignU4DealsExcelDataTest" invocation-numbers="6"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.SignUp4DealTest -->
+    </classes>
+  </test> <!--  CVS SignUp4DealTest(failed) -->
 </suite> <!-- Failed suite [CVS Pharmacy Application Test Automation Test Suite] -->

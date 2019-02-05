@@ -74,9 +74,9 @@
 		</classes>
 	</test>
 
-	<test name=" CVS PharmacyPageTest">
+	<!-- <test name=" CVS PharmacyPageTest">
 		<classes>
 			<class name="com.cvs.qa.testcases.PharmacyTest" />
 		</classes>
-	</test>
+	</test> -->
 </suite>

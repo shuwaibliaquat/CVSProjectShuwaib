@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cvs.qa.testcases.PhotoPageTest">
+      <class name="com.cvs.qa.testcases.PharmacyTest">
         <methods>
-          <include name="verifyPhotoPageHomeTitleTest"/>
-          <include name="verifyPhotoUploadTest"/>
-          <include name="setUp"/>
+          <include name="verifyTransferingRX2CVS"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.cvs.qa.testcases.PhotoPageTest -->
+      </class> <!-- com.cvs.qa.testcases.PharmacyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

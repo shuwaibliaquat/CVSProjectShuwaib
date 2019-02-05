@@ -47,7 +47,7 @@ public class RegistrationTest extends TestBase {
 
 	@Test(priority = 1)
 	public void registerCustomer() throws InterruptedException {
-		registration.registrationForm("Shuwaib", "Liaquat", "shuwaibliaquat@hotmail.com", "Bangladesh@1",
+		registration.registrationForm("Shuwaib", "Liaquat", "shuwaibliaquat78@hotmail.com", "Bangladesh@1",
 				"Bangladesh@1");
 
 		// registration.selectSecurityQuestion();

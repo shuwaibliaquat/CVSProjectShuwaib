@@ -4,15 +4,27 @@
   <listeners>
     <listener class-name="com.cvs.qa.utilities.RunTimeTransformer"/>
   </listeners>
-  <test thread-count="5" name=" CVS ShopPageTest(failed)(failed)(failed)(failed)">
+  <test thread-count="5" name=" CVS ExtraCareTest(failed)(failed)(failed)(failed)">
     <classes>
-      <class name="com.cvs.qa.testcases.ShopPageTest">
+      <class name="com.cvs.qa.testcases.ExtraCareTest">
         <methods>
-          <include name="verifyClickonShopAllCategoriesTest"/>
+          <include name="tearDown"/>
+          <include name="verifyExtraCareSignInTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.ExtraCareTest -->
+    </classes>
+  </test> <!--  CVS ExtraCareTest(failed)(failed)(failed)(failed) -->
+  <test thread-count="5" name=" CVS PhotoPageTest(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.PhotoPageTest">
+        <methods>
+          <include name="verifyPhotoPageHomeTitleTest"/>
+          <include name="verifyPhotoUploadTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.cvs.qa.testcases.ShopPageTest -->
+      </class> <!-- com.cvs.qa.testcases.PhotoPageTest -->
     </classes>
-  </test> <!--  CVS ShopPageTest(failed)(failed)(failed)(failed) -->
+  </test> <!--  CVS PhotoPageTest(failed)(failed)(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [CVS Pharmacy Application Test Automation Test Suite]]]] -->

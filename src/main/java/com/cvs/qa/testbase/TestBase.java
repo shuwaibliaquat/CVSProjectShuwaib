@@ -26,8 +26,7 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			FileInputStream ip;
-			ip = new FileInputStream(
-					"C:\\Users\\JavaLearner\\Desktop\\CvsPharmacyProject\\CvsPharmacyTest\\src\\main\\java\\com\\cvs\\qa\\configuration\\config.properties");
+			ip = new FileInputStream("Resources\\config.properties");
 			prop.load(ip);
 
 		} catch (FileNotFoundException e) {
@@ -42,7 +41,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\JavaLearner\\Desktop\\CvsPharmacyProject\\CvsPharmacyTest\\Drivers\\chromedriver.exe");
+					"Resources\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("FF")) {
 			System.setProperty("webdriver.gecko.driver",
