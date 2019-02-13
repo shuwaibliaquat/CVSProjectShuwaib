@@ -1,19 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowser Test for Pharmacy Class]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CVS Pharmacy Application Test Automation Test Suite]">
   <listeners>
     <listener class-name="com.cvs.qa.utilities.RunTimeTransformer"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="browser" value="FF"/>
+  <test thread-count="5" name=" CVS HomePageTest(failed)">
     <classes>
-      <class name="com.cvs.qa.testcases.PharmacyTest">
+      <class name="com.cvs.qa.testcases.HomePageTest">
         <methods>
-          <include name="verifyTransferingRX2CVS"/>
+          <include name="verifyPhotoLinkTest"/>
+          <include name="verifyMinuteClinicLinkTest"/>
+          <include name="verifyExtraCareLinkTest"/>
+          <include name="verifyStoreLocator24HrsStoreTest"/>
+          <include name="verifyContactLensesTest"/>
+          <include name="verifyStoreLocatorTest"/>
+          <include name="verifyPharmacyLinkTest"/>
           <include name="tearDown"/>
+          <include name="verifyShopLinkTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.cvs.qa.testcases.PharmacyTest -->
+      </class> <!-- com.cvs.qa.testcases.HomePageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [CrossBrowser Test for Pharmacy Class] -->
+  </test> <!--  CVS HomePageTest(failed) -->
+  <test thread-count="5" name=" CVS RegistrationPageTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.RegistrationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="registerCustomer"/>
+          <include name="registerMultipleCustomer" invocation-numbers="0 0 0 0 1 1 2 2 3 3 4 4 5 5 6 6"/>
+          <include name="tearDown"/>
+          <include name="verifyRegistrationPageTitle"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.RegistrationTest -->
+    </classes>
+  </test> <!--  CVS RegistrationPageTest(failed) -->
+  <test thread-count="5" name=" CVS MinuteClinicPageTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.MinuteClinicTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyZipCodeLocaterTest"/>
+          <include name="verifyMinuteClinicPageTitleTest"/>
+          <include name="verifyClinicLocatorPageTitleTest"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.MinuteClinicTest -->
+    </classes>
+  </test> <!--  CVS MinuteClinicPageTest(failed) -->
+  <test thread-count="5" name=" CVS ContactLensesPageTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.ContactLensesPageTest">
+        <methods>
+          <include name="veriyAirOptixBrandLabelClickTest"/>
+          <include name="veriyAcuvueElementListTest"/>
+          <include name="veriyContactLensesPageTitleTest"/>
+          <include name="veriyAirOptixBrandMouseHoverTest"/>
+          <include name="veriyAirOptixBrandTest"/>
+          <include name="setup"/>
+          <include name="veriyAirOptixAquaElementListTest"/>
+          <include name="veriyLensTypeTest"/>
+          <include name="verifyDropDownMenuContactLensBrandsTest"/>
+          <include name="verifyAcuvueDefine30PKTest"/>
+          <include name="verifyAcuvueDefine90PKTest"/>
+          <include name="tearDown"/>
+          <include name="veriyLensTypeElementListTest"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.ContactLensesPageTest -->
+    </classes>
+  </test> <!--  CVS ContactLensesPageTest(failed) -->
+  <test thread-count="5" name=" CVS ExtraCareTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.ExtraCareTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyExtraCareSignInTest"/>
+          <include name="verifyExtraCareShoppingCartTest"/>
+          <include name="verifyExtraCarePageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.ExtraCareTest -->
+    </classes>
+  </test> <!--  CVS ExtraCareTest(failed) -->
+  <test thread-count="5" name=" CVS PhotoPageTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.PhotoPageTest">
+        <methods>
+          <include name="verifyShopNowPicLinkTest"/>
+          <include name="verifyPhotoPageHomeTitleTest"/>
+          <include name="verifyPhotoUploadTest"/>
+          <include name="verifyPhotoPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.PhotoPageTest -->
+    </classes>
+  </test> <!--  CVS PhotoPageTest(failed) -->
+  <test thread-count="5" name=" CVS ShopPageTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.ShopPageTest">
+        <methods>
+          <include name="verifyClickonVitaminLink"/>
+          <include name="verifyShopPageLinkTest"/>
+          <include name="verifyClickonShopAllCategoriesTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyAddCSLW2CartTest"/>
+          <include name="verifyShopPageTitleTest"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.ShopPageTest -->
+    </classes>
+  </test> <!--  CVS ShopPageTest(failed) -->
+  <test thread-count="5" name=" CVS SignUp4DealTest(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.SignUp4DealTest">
+        <methods>
+          <include name="verifyPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.SignUp4DealTest -->
+    </classes>
+  </test> <!--  CVS SignUp4DealTest(failed) -->
+</suite> <!-- Failed suite [CVS Pharmacy Application Test Automation Test Suite] -->

@@ -18,7 +18,7 @@ public class Registration extends TestBase {
 	//WebDriverWait wait=new WebDriverWait(driver, 20); //Explicit Wait
 	// Registration 1st Step:>>
 
-	@FindBy(xpath = "//a[contains(text(),'Create an Account')]")
+	@FindBy(css = ".sign-in-block [value]")
 	WebElement CreateAnAccountLink;
 
 	@FindBy(xpath = "//input[@id='firstName']")
