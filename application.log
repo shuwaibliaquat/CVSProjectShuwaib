@@ -1,192 +1,116 @@
-2019-02-11 00:20:15,353  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:20:22,029  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:20:29,815  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:20:36,539  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:20:45,280  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:20:55,064  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:21:04,699  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:21:15,652  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:21:25,372  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:21:34,624  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:21:41,905  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:21:49,538  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:21:57,654  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:22:05,375  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:22:14,219  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:22:21,583  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:22:30,538  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:22:37,073  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:22:44,911  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:22:54,576  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:23:06,554  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:23:15,479  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:23:22,836  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:23:31,839  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:23:39,522  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:23:46,787  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:23:54,315  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:24:02,604  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:24:09,881  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:24:17,065  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:24:25,521  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:24:33,021  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:24:41,779  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:24:49,265  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:24:56,728  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-11 00:25:06,084  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
-2019-02-11 00:25:16,951  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
-2019-02-11 00:25:26,514  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
-2019-02-11 00:25:35,584  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
-2019-02-11 00:25:44,986  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
-2019-02-11 00:25:55,513  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
-2019-02-11 00:26:05,158  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
-2019-02-11 00:26:16,758  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
-2019-02-11 00:26:26,288  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:26:28,164  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:26:33,444  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:26:35,344  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:26:40,372  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:26:42,184  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:26:47,347  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:26:49,144  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:26:54,196  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:26:56,045  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:27:02,398  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:27:04,004  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:27:09,659  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:27:11,504  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:27:16,727  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:27:18,534  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:27:24,696  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:27:26,514  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:27:31,867  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:27:33,824  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:27:39,284  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:27:41,264  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:27:46,728  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:27:48,714  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:27:54,566  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:27:56,044  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:28:01,737  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:28:03,734  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:28:09,200  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:28:11,152  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:28:17,927  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:28:19,444  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:28:25,982  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:28:27,484  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:28:32,751  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:28:34,634  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:28:40,363  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:28:42,224  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:28:47,567  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:28:49,424  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:28:56,201  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:28:57,994  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:29:03,098  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:29:05,004  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:29:10,069  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:29:11,864  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:29:17,225  INFO [main] RegistrationTest:32 - Beginnning of Test Case
-2019-02-11 00:29:19,053  INFO [main] RegistrationTest:98 - Ending of Test Case
-2019-02-11 00:30:58,741  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:31:06,305  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:31:13,132  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:31:21,768  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:31:28,887  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:31:35,870  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:31:43,145  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:31:50,007  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:31:57,496  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:32:04,658  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:32:13,909  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:32:22,867  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:32:30,150  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:32:37,721  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:32:46,883  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:32:53,815  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:33:00,394  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:33:07,432  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:33:16,259  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:33:23,646  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:33:30,888  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:33:38,211  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:33:46,812  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:33:53,545  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:34:01,312  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:34:09,296  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:34:16,736  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:34:23,864  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:34:31,181  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:34:39,622  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:34:49,083  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:34:57,121  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:35:05,646  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:35:12,975  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:35:21,616  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:35:28,705  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:35:36,125  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:35:43,483  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:35:51,157  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:35:58,386  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:36:06,169  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:36:13,564  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:36:21,516  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:36:28,860  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
-2019-02-11 00:40:20,141  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:40:27,582  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:40:34,924  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:40:44,337  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:40:53,361  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:41:00,873  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:41:08,512  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:41:19,966  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:41:28,078  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:41:37,795  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:41:44,712  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:41:52,955  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:42:00,238  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:42:07,977  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:42:15,965  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:42:22,859  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:42:30,896  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:42:37,490  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:42:44,933  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:42:53,976  INFO [main] ShopPageTest:24 - Beginnning of Test Case
-2019-02-11 00:43:00,976  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
-2019-02-11 00:43:00,976  INFO [main] SignUpPage4Savings:69 - Verifying Title of the signup webpage
-2019-02-11 00:43:22,751  INFO [main] SignUp4DealTest:64 - End of Test Case
-2019-02-11 00:43:29,521  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
-2019-02-11 00:43:29,523  INFO [main] SignUpPage4Savings:69 - Verifying Title of the signup webpage
-2019-02-11 00:43:35,415  INFO [main] SignUp4DealTest:64 - End of Test Case
-2019-02-11 00:43:40,989  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
-2019-02-11 00:43:42,990  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
-2019-02-11 00:43:52,765  INFO [main] SignUp4DealTest:64 - End of Test Case
-2019-02-11 00:43:57,894  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
-2019-02-11 00:43:57,895  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
-2019-02-11 00:43:59,897  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
-2019-02-11 00:44:10,599  INFO [main] SignUp4DealTest:64 - End of Test Case
-2019-02-11 00:44:15,643  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
-2019-02-11 00:44:15,645  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
-2019-02-11 00:44:17,647  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
-2019-02-11 00:44:28,350  INFO [main] SignUp4DealTest:64 - End of Test Case
-2019-02-11 00:44:33,864  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
-2019-02-11 00:44:33,865  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
-2019-02-11 00:44:35,865  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
-2019-02-11 00:44:45,783  INFO [main] SignUp4DealTest:64 - End of Test Case
-2019-02-11 00:44:51,029  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
-2019-02-11 00:44:51,029  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
-2019-02-11 00:44:53,031  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
-2019-02-11 00:45:03,462  INFO [main] SignUp4DealTest:64 - End of Test Case
-2019-02-11 00:45:08,673  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
-2019-02-11 00:45:08,674  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
-2019-02-11 00:45:10,674  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
-2019-02-11 00:45:20,515  INFO [main] SignUp4DealTest:64 - End of Test Case
-2019-02-11 00:45:25,592  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
-2019-02-11 00:45:25,593  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
-2019-02-11 00:45:27,594  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
-2019-02-11 00:45:37,649  INFO [main] SignUp4DealTest:64 - End of Test Case
-2019-02-11 00:45:42,694  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
-2019-02-11 00:45:42,695  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
-2019-02-11 00:45:44,697  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
-2019-02-11 00:45:55,551  INFO [main] SignUp4DealTest:64 - End of Test Case
+2019-02-13 02:38:57,966  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
+2019-02-13 02:39:04,109  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
+2019-02-13 02:39:14,821  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
+2019-02-13 02:39:21,726  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
+2019-02-13 02:39:25,204  INFO [main] HomePageTest:57 - Pharmacy | Manage, Transfer, & Refill Prescriptions Online | CVS Pharmacy
+2019-02-13 02:39:31,510  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
+2019-02-13 02:39:41,566  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
+2019-02-13 02:39:49,380  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
+2019-02-13 02:39:56,858  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
+2019-02-13 02:40:04,721  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
+2019-02-13 02:40:15,641  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
+2019-02-13 02:40:31,195  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
+2019-02-13 02:40:46,535  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
+2019-02-13 02:40:57,358  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
+2019-02-13 02:41:05,965  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
+2019-02-13 02:41:14,673  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
+2019-02-13 02:41:26,380  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
+2019-02-13 02:41:36,607  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
+2019-02-13 02:41:45,499  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
+2019-02-13 02:41:55,383  INFO [main] LogInTest:25 - Beginnning of LogInTest Test Case
+2019-02-13 02:42:04,299  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-13 02:42:07,644  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-13 02:42:12,765  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-13 02:42:30,222  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-13 02:42:35,512  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-13 02:42:50,150  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-13 02:42:59,238  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-13 02:43:02,469  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-13 02:43:07,455  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-13 02:43:10,629  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-13 02:43:16,478  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-13 02:43:30,683  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-13 02:43:35,759  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-13 02:43:39,298  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-13 02:43:45,095  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-13 02:43:58,867  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-13 02:44:03,766  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-13 02:44:17,891  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-13 02:44:22,962  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-13 02:44:37,462  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-13 02:44:42,359  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-13 02:44:56,360  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-13 02:45:01,458  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-13 02:45:15,637  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-13 02:46:48,989  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
+2019-02-13 02:46:57,003  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
+2019-02-13 02:47:07,215  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
+2019-02-13 02:47:20,641  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
+2019-02-13 02:47:32,426  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
+2019-02-13 02:47:42,469  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
+2019-02-13 02:47:50,621  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
+2019-02-13 02:48:34,868  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
+2019-02-13 02:48:43,382  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
+2019-02-13 02:48:51,790  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
+2019-02-13 02:49:00,340  INFO [main] ContactLensesPageTest:29 - Beginnning of ContactLensesPageTest Test Case
+2019-02-13 02:52:22,042  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:52:28,920  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:52:35,350  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:52:42,975  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:52:49,540  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:52:56,348  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:53:03,372  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:53:11,133  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:53:19,284  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:53:26,065  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:53:32,729  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:53:40,097  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:53:47,048  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:53:54,285  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:54:01,187  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:54:08,420  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:54:15,341  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:54:22,225  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:54:28,770  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:54:35,744  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-13 02:54:43,322  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
+2019-02-13 02:54:43,322  INFO [main] SignUpPage4Savings:69 - Verifying Title of the signup webpage
+2019-02-13 02:54:48,060  INFO [main] SignUp4DealTest:64 - End of Test Case
+2019-02-13 02:54:53,837  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
+2019-02-13 02:54:55,838  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
+2019-02-13 02:55:21,123  INFO [main] SignUp4DealTest:64 - End of Test Case
+2019-02-13 02:55:27,483  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
+2019-02-13 02:55:29,490  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
+2019-02-13 02:55:39,551  INFO [main] SignUp4DealTest:64 - End of Test Case
+2019-02-13 02:55:44,658  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
+2019-02-13 02:55:44,658  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
+2019-02-13 02:55:46,659  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
+2019-02-13 02:56:00,204  INFO [main] SignUp4DealTest:64 - End of Test Case
+2019-02-13 02:56:05,425  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
+2019-02-13 02:56:05,425  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
+2019-02-13 02:56:07,429  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
+2019-02-13 02:56:17,718  INFO [main] SignUp4DealTest:64 - End of Test Case
+2019-02-13 02:56:22,649  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
+2019-02-13 02:56:22,649  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
+2019-02-13 02:56:24,656  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
+2019-02-13 02:56:34,499  INFO [main] SignUp4DealTest:64 - End of Test Case
+2019-02-13 02:56:39,826  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
+2019-02-13 02:56:39,827  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
+2019-02-13 02:56:41,827  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
+2019-02-13 02:56:51,199  INFO [main] SignUp4DealTest:64 - End of Test Case
+2019-02-13 02:56:56,092  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
+2019-02-13 02:56:56,092  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
+2019-02-13 02:56:58,093  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
+2019-02-13 02:57:19,514  INFO [main] SignUp4DealTest:64 - End of Test Case
+2019-02-13 02:57:25,842  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
+2019-02-13 02:57:25,842  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
+2019-02-13 02:57:27,842  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
+2019-02-13 02:57:37,229  INFO [main] SignUp4DealTest:64 - End of Test Case
+2019-02-13 02:57:42,093  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
+2019-02-13 02:57:42,094  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
+2019-02-13 02:57:44,095  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
+2019-02-13 02:57:55,015  INFO [main] SignUp4DealTest:64 - End of Test Case
+2019-02-13 02:58:00,066  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
+2019-02-13 02:58:00,067  INFO [main] SignUp4DealTest:54 - Beginnning of Excel Data Test
+2019-02-13 02:58:02,067  INFO [main] SignUpPage4Savings:79 - Verifying signup steps in signup webpage
+2019-02-13 02:58:11,783  INFO [main] SignUp4DealTest:64 - End of Test Case

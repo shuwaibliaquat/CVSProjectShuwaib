@@ -16,22 +16,22 @@ public class HomePage extends TestBase {
 	@FindBy(linkText = "CVS pharmacy™ homepage")
 	WebElement homePageLogo; //CVS HomePage logo
 
-	@FindBy(xpath = "//a[@title='Pharmacy']")
+	@FindBy(css = ".main-nav li:nth-of-type(1) [target]")
 	WebElement pharmacyLink; //Pharmacy Link Tab
 
-	@FindBy(xpath = "//a[@title='MinuteClinic']")
+	@FindBy(css = ".main-nav li:nth-of-type(2) [target]")
 	WebElement minuteClinicLink; //minuteClinicLink Link Tab
 
-	@FindBy(xpath = "//a[@title='Shop']")
+	@FindBy(css = ".main-nav li:nth-of-type(3) [target]")
 	WebElement shopLink; //shopLink Link Tab
 
-	@FindBy(xpath = "//a[@title='ExtraCare']")
+	@FindBy(css = ".main-nav li:nth-of-type(4) [target]")
 	WebElement extraCareLink; //extraCareLink Link Tab
 
-	@FindBy(xpath = "//a[@title='Contact Lenses']")
+	@FindBy(css = ".main-nav li:nth-of-type(5) [target]")
 	WebElement contactLensesLink; //contactLensesLink Link Tab
 
-	@FindBy(xpath = "//a[@title='CVS Photo']")
+	@FindBy(css = ".main-nav li:nth-of-type(6) [target]")
 	WebElement photoLink; //photoLink Link Tab
 
 	@FindBy(xpath = "//input[@id='searchbox']")
@@ -40,7 +40,7 @@ public class HomePage extends TestBase {
 	@FindBy(css = "#mobile-off__base")
 	WebElement searchBoxBtn; //button to click item from search box
 
-	@FindBy(xpath = "//li//a[contains(@href,'/store-locator/landing?icid=cvsheader:storelocator')]")
+	@FindBy(css = ".head-c1-links-right .head-links:nth-of-type(1)")
 	WebElement storeLocatorLink; //storeLocatorLink to locate store nearby
 
 	@FindBy(xpath = "//input[@id='search']")
