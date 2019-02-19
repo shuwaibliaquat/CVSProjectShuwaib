@@ -1,6 +1,25 @@
-2019-02-13 03:38:10,373  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-13 03:38:16,984  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-13 03:38:23,385  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-13 03:38:29,840  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
-2019-02-13 03:38:34,041  INFO [main] HomePageTest:57 - Pharmacy | Manage, Transfer, & Refill Prescriptions Online | CVS Pharmacy
-2019-02-13 03:38:40,044  INFO [main] HomePageTest:28 - Beginnning of Home Page Test Case
+2019-02-19 03:14:20,925  INFO [main] RegistrationTest:32 - Beginnning of Test Case
+2019-02-19 03:14:37,711  INFO [main] RegistrationTest:98 - Ending of Test Case
+2019-02-19 03:19:11,460  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:19:18,324  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:19:25,256  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:19:31,806  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:19:38,608  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:19:45,236  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:19:52,493  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:19:59,011  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:20:05,383  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:20:11,855  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:20:18,437  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:20:25,071  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:20:31,548  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:20:38,463  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:20:44,689  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:20:51,482  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:20:57,793  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:21:04,550  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:21:11,330  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:21:18,379  INFO [main] ShopPageTest:24 - Beginnning of Test Case
+2019-02-19 03:21:24,704  INFO [main] SignUp4DealTest:28 - Beginnning of SignUp for Deals Test Case
+2019-02-19 03:21:24,704  INFO [main] SignUpPage4Savings:69 - Verifying Title of the signup webpage
+2019-02-19 03:21:28,894  INFO [main] SignUp4DealTest:64 - End of Test Case

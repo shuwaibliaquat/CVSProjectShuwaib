@@ -9,8 +9,7 @@
       <class name="com.cvs.qa.testcases.RegistrationTest">
         <methods>
           <include name="setUp"/>
-          <include name="registerCustomer"/>
-          <include name="registerMultipleCustomer" invocation-numbers="0 0 0 0 2 2 4 4"/>
+          <include name="registerMultipleCustomer"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.cvs.qa.testcases.RegistrationTest -->
@@ -23,6 +22,7 @@
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="verifyZipCodeLocaterTest"/>
+          <include name="verifyMinuteClinicPageTitleTest"/>
           <include name="verifyClinicLocatorPageTitleTest"/>
         </methods>
       </class> <!-- com.cvs.qa.testcases.MinuteClinicTest -->
@@ -34,6 +34,8 @@
         <methods>
           <include name="tearDown"/>
           <include name="verifyExtraCareSignInTest"/>
+          <include name="verifyExtraCareShoppingCartTest"/>
+          <include name="verifyExtraCarePageTitleTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.cvs.qa.testcases.ExtraCareTest -->
@@ -43,12 +45,40 @@
     <classes>
       <class name="com.cvs.qa.testcases.PhotoPageTest">
         <methods>
+          <include name="verifyShopNowPicLinkTest"/>
           <include name="verifyPhotoPageHomeTitleTest"/>
           <include name="verifyPhotoUploadTest"/>
+          <include name="verifyPhotoPageTitleTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.cvs.qa.testcases.PhotoPageTest -->
     </classes>
   </test> <!--  CVS PhotoPageTest(failed)(failed) -->
+  <test thread-count="5" name=" CVS ShopPageTest(failed)(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.ShopPageTest">
+        <methods>
+          <include name="verifyClickonVitaminLink"/>
+          <include name="verifyShopPageLinkTest"/>
+          <include name="verifyClickonShopAllCategoriesTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyAddCSLW2CartTest"/>
+          <include name="verifyShopPageTitleTest"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.ShopPageTest -->
+    </classes>
+  </test> <!--  CVS ShopPageTest(failed)(failed) -->
+  <test thread-count="5" name=" CVS SignUp4DealTest(failed)(failed)">
+    <classes>
+      <class name="com.cvs.qa.testcases.SignUp4DealTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifySignU4DealsExcelDataTest"/>
+        </methods>
+      </class> <!-- com.cvs.qa.testcases.SignUp4DealTest -->
+    </classes>
+  </test> <!--  CVS SignUp4DealTest(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [CVS Pharmacy Application Test Automation Test Suite]] -->
