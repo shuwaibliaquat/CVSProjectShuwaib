@@ -1,84 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [CVS Pharmacy Application Test Automation Test Suite]]">
-  <listeners>
-    <listener class-name="com.cvs.qa.utilities.RunTimeTransformer"/>
-  </listeners>
-  <test thread-count="5" name=" CVS RegistrationPageTest(failed)(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cvs.qa.testcases.RegistrationTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="registerMultipleCustomer"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.cvs.qa.testcases.RegistrationTest -->
-    </classes>
-  </test> <!--  CVS RegistrationPageTest(failed)(failed) -->
-  <test thread-count="5" name=" CVS MinuteClinicPageTest(failed)(failed)">
-    <classes>
-      <class name="com.cvs.qa.testcases.MinuteClinicTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="verifyZipCodeLocaterTest"/>
-          <include name="verifyMinuteClinicPageTitleTest"/>
-          <include name="verifyClinicLocatorPageTitleTest"/>
-        </methods>
-      </class> <!-- com.cvs.qa.testcases.MinuteClinicTest -->
-    </classes>
-  </test> <!--  CVS MinuteClinicPageTest(failed)(failed) -->
-  <test thread-count="5" name=" CVS ExtraCareTest(failed)(failed)">
-    <classes>
-      <class name="com.cvs.qa.testcases.ExtraCareTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verifyExtraCareSignInTest"/>
-          <include name="verifyExtraCareShoppingCartTest"/>
-          <include name="verifyExtraCarePageTitleTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.cvs.qa.testcases.ExtraCareTest -->
-    </classes>
-  </test> <!--  CVS ExtraCareTest(failed)(failed) -->
-  <test thread-count="5" name=" CVS PhotoPageTest(failed)(failed)">
-    <classes>
-      <class name="com.cvs.qa.testcases.PhotoPageTest">
-        <methods>
-          <include name="verifyShopNowPicLinkTest"/>
-          <include name="verifyPhotoPageHomeTitleTest"/>
-          <include name="verifyPhotoUploadTest"/>
-          <include name="verifyPhotoPageTitleTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.cvs.qa.testcases.PhotoPageTest -->
-    </classes>
-  </test> <!--  CVS PhotoPageTest(failed)(failed) -->
-  <test thread-count="5" name=" CVS ShopPageTest(failed)(failed)">
-    <classes>
-      <class name="com.cvs.qa.testcases.ShopPageTest">
-        <methods>
-          <include name="verifyClickonVitaminLink"/>
-          <include name="verifyShopPageLinkTest"/>
-          <include name="verifyClickonShopAllCategoriesTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="verifyAddCSLW2CartTest"/>
-          <include name="verifyShopPageTitleTest"/>
-        </methods>
-      </class> <!-- com.cvs.qa.testcases.ShopPageTest -->
-    </classes>
-  </test> <!--  CVS ShopPageTest(failed)(failed) -->
-  <test thread-count="5" name=" CVS SignUp4DealTest(failed)(failed)">
-    <classes>
-      <class name="com.cvs.qa.testcases.SignUp4DealTest">
+      <class name="com.cvs.qa.testcases.LogInTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifySignU4DealsExcelDataTest"/>
+          <include name="verifyLogInExcelData" invocation-numbers="1"/>
+          <include name="verifyTopPanelLogInTestExcelDataTest" invocation-numbers="1"/>
         </methods>
-      </class> <!-- com.cvs.qa.testcases.SignUp4DealTest -->
+      </class> <!-- com.cvs.qa.testcases.LogInTest -->
     </classes>
-  </test> <!--  CVS SignUp4DealTest(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [CVS Pharmacy Application Test Automation Test Suite]] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

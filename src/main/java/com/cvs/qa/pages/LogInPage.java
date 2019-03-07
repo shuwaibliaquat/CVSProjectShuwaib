@@ -14,19 +14,22 @@ public class LogInPage extends TestBase {
 	/*@cacheLookup-> Instead of looking into browser DOM every time it will create
 	a cache memory in eclipse and will look up from there instead of browser DOM.
 */
-	@FindBy(xpath = "//button[@id='signInBtn']")
+	@FindBy(xpath = "//*[@id=\"signInBtn\"]")
 	@CacheLookup
 	WebElement topPanelsignInLink;
 
-	@FindBy(xpath = "//input[@id='clubLoginEmail']")
+	@FindBy(xpath = "//*[@id=\"email\"]")
 	@CacheLookup
 	WebElement emailAddressPopUpTextBox;
+	@FindBy(css =".twoStep-create-account")
+	@CacheLookup
+	WebElement signInContinueBtn;
 
-	@FindBy(xpath = "//input[@id='clubLoginPwd']")
+	@FindBy(xpath = "//*[@id=\"password\"]")
 	@CacheLookup
 	WebElement passwordPopUpTextBox;
 	
-	@FindBy(css = "[form]")
+	@FindBy(xpath ="//button")
 	@CacheLookup
 	WebElement signInBtn;
 
@@ -56,6 +59,7 @@ public class LogInPage extends TestBase {
 		topPanelsignInLink.click();
 		Thread.sleep(2000);
 		emailAddressPopUpTextBox.sendKeys(emailAddress);
+		signInContinueBtn.click();
 		passwordPopUpTextBox.sendKeys(pwd);
 		signInBtn.click();
 	}
@@ -64,6 +68,7 @@ public class LogInPage extends TestBase {
 		topPanelsignInLink.click();
 		Thread.sleep(2000);
 		emailAddressPopUpTextBox.sendKeys(popUpemailAddress);
+		signInContinueBtn.click();
 		passwordPopUpTextBox.sendKeys(popUpPwd);
 		signInBtn.click();
 	}

@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cvs.qa.testcases.HomePageTest">
+      <class name="com.cvs.qa.testcases.LogInTest">
         <methods>
-          <include name="verifyStoreLocator24HrsStoreTest"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLogInExcelData" invocation-numbers="1"/>
+          <include name="verifyTopPanelLogInTestExcelDataTest" invocation-numbers="1"/>
         </methods>
-      </class> <!-- com.cvs.qa.testcases.HomePageTest -->
+      </class> <!-- com.cvs.qa.testcases.LogInTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
